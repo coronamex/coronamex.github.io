@@ -450,7 +450,33 @@
       <div class="col-12 col-md-6 my-auto my-auto">
         <h2>¿Cuántos casos hay en México?</h2>
         <p class="lead">
-          <p>Esta gráfica muestra el número total de casos por la fecha en que <span style="background-color: #7570b3">iniciaron sus síntomas</span> y la fecha en que se <span style="background-color: #1b9e77">confirmó</span> el caso. Las líneas <span style="background-color: #d95f02">marrones</span> muestran las estimaciones del número de casos totales basadas en un de un <a href="https://gabgoh.github.io/COVID/index.html" target="_blank">modelo epidemiológico</a>. Las diferentes líneas muestran los resultados con diferentes parámetros.</p> <p>Hay varias fuentes de incertidumbre: 1) los casos importados hacen que sobrestimemos el número de casos, 2) los casos que no detecta el gobierno (ej. asintomáticos) hacen que subestimemos el número de casos, 3) la jornada nacional de sana distancia inició el 23 de marzo y podría haber tenido un efecto, pero todavía es muy pronto para medirlo.</p> <p>El código para ajustar, simular y graficar el modelo está <a href="https://github.com/coronamex/visualizando/blob/master/sir/sir.r" target="_blank">aquí</a>.</p>
+          <p>Esta gráfica muestra el número total de casos por la fecha en que <span style="background-color: #7570b3">iniciaron sus síntomas</span> y la fecha en que se <span style="background-color: #1b9e77">confirmó</span> el caso. Las líneas <span style="background-color: #d95f02">marrones</span> muestran las estimaciones del número de casos totales basadas en un de un <a href="https://gabgoh.github.io/COVID/index.html" target="_blank">modelo epidemiológico</a>. Las diferentes líneas muestran los resultados con diferentes parámetros. Este modelo se ajusta a las fechas de inicio de sntomas, que son un indicador más preciso que la fecha de confirmación del caso, y además nos permite estimar el cambio en el número reproductivo (R0) del virus desde el inicio de las medidas de mitigación.</p> <p>La mayor fuente de incertidumbre es que el número de casos positivos no corresponde con el total de casos. En México, esto es esperado porque se usa un sistema de monitoreo Centinela que es parecido a una encuesta. Puedes consultar las estimaciones basadas en el sistema Centinela <a href="#sir_centinela">más abajo</a>.</p> <p>El código para ajustar, simular y graficar el modelo está <a href="https://github.com/coronamex/visualizando/blob/master/sir/sir.r" target="_blank">aquí</a>.</p>
+        </p>
+	
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  
+<section class="section rad-animation-group pb-0" id="sir_centinela">
+  <div class="container rad-fade-down">
+    <div class="row d-flex flex-column-reverse flex-md-row">
+      <div class="about__profile-picture col-12 col-md-6">
+        <img
+          class="lozad img-responsive image-left-overflow"
+          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+          data-src="https://coronamex.github.io/imagenes/sir_nacional_centinela.png"
+          data-srcset="https://coronamex.github.io/imagenes/sir_nacional_centinela.png 1x, https://coronamex.github.io/imagenes/sir_nacional_centinela@2x.png 2x"
+          alt="Curva de sir_centinela acumulados"
+        />
+      </div>
+      <div class="col-12 col-md-6 my-auto my-auto">
+        <h2>¿Cuántos casos hay en México? (Centinela)</h2>
+        <p class="lead">
+          <p>El modelo de vigilancia Centinela es mucho mejor estimando el el verdadero número de casos que simplemente contar casos confirmados. Sin embargo, sufre de la misma debilidad porque el retraso entre el contagio y los síntomas, hace que los casos detectados en una fecha correspondan al pasado. Afortunadamente, podemos usar los datos del sistema Centinela con un modelo epidemiológico que nos permite proyectar el número de casos en la actualidad.</p> <p>Sólo tenemos <a href="https://github.com/coronamex/datos/tree/master/sinave/2020"> datos incompletos </a> del sistema Centinela, <a href="https://youtu.be/qPvXQ_MiZ4A?t=2613" target="_blank"> el 11 de abril</a> sólo incluye hasta la semana epidemiológica 13 que terminó el 28 de marzo.</p> <p>Con esta información el modelo SEIR estima que hay cerca de 400 mil casos en México. Además, las medidas de mitigación habrían reducido el número reproductivo del virus en un 20%, muy lejos de lo necesario. <strong>Quédate en Casa</strong>.</p>
         </p>
 	
       </div>
