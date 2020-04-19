@@ -3,16 +3,188 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://coronamex.github.io/mundo/mejor_curva/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/mundo/casos/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/mundo/muertes/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/clinicos/tiempo_muerte/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/clinicos/riesgos_relativos/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/casos/nacional_sintomas/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/casos/sir/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/casos/sir_centinela/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/mundo/comunitarios/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/estados/estados_100mil/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/estados/inicio_comunitarios/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/muertes/letalidad/</loc>
+  </url>
+  
+  <url>
     <loc>https://coronamex.github.io/</loc>
     <lastmod>2020-03-31T13:49:04-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://coronamex.github.io/categories.html</loc>
+    <loc>https://coronamex.github.io/secciones/casos/</loc>
   </url>
   
   <url>
-    <loc>https://coronamex.github.io/tags.html</loc>
+    <loc>https://coronamex.github.io/etiquetas/casos/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/casos/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/etiquetas/centinela/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/secciones/clinicos/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/etiquetas/clinicos/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/etiquetas/comunitarios/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/etiquetas/concepto/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/clinicos/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/etiquetas/dias/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/etiquetas/d%C3%ADas/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/estados/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/secciones/estados/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/etiquetas/estados/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/etiquetas/estimado/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/etiquetas/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/etiquetas/hospitalizaciones/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/etiquetas/incidencia/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/secciones/letalidad/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/etiquetas/letalidad/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/etiquetas/modelo/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/muertes/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/secciones/muertes/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/etiquetas/muertes/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/secciones/mundo/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/etiquetas/mundo/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/mundo/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/etiquetas/nacional/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/secciones/principal/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/secciones/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/etiquetas/sir/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/etiquetas/s%C3%ADntomas/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/etiquetas/tiempo/</loc>
   </url>
   
 </urlset>

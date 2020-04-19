@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hospitalizaciones on </title>
+    <link>https://coronamex.github.io/etiquetas/hospitalizaciones/</link>
+    <description>Recent content in hospitalizaciones on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-mx</language>
+    
+	<atom:link href="https://coronamex.github.io/etiquetas/hospitalizaciones/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Casos confirmados en México</title>
+      <link>https://coronamex.github.io/casos/nacional_sintomas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://coronamex.github.io/casos/nacional_sintomas/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

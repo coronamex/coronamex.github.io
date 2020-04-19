@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Secciones on </title>
+    <link>https://coronamex.github.io/secciones/</link>
+    <description>Recent content in Secciones on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-mx</language>
+    
+	<atom:link href="https://coronamex.github.io/secciones/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>casos</title>
+      <link>https://coronamex.github.io/secciones/casos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://coronamex.github.io/secciones/casos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>clinicos</title>
+      <link>https://coronamex.github.io/secciones/clinicos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://coronamex.github.io/secciones/clinicos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>estados</title>
+      <link>https://coronamex.github.io/secciones/estados/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://coronamex.github.io/secciones/estados/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>letalidad</title>
+      <link>https://coronamex.github.io/secciones/letalidad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://coronamex.github.io/secciones/letalidad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>muertes</title>
+      <link>https://coronamex.github.io/secciones/muertes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://coronamex.github.io/secciones/muertes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mundo</title>
+      <link>https://coronamex.github.io/secciones/mundo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://coronamex.github.io/secciones/mundo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>principal</title>
+      <link>https://coronamex.github.io/secciones/principal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://coronamex.github.io/secciones/principal/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
