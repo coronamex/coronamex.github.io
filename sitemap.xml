@@ -43,6 +43,10 @@
   </url>
   
   <url>
+    <loc>https://coronamex.github.io/municipios/n_municipios/</loc>
+  </url>
+  
+  <url>
     <loc>https://coronamex.github.io/estados/inicio_comunitarios/</loc>
   </url>
   
@@ -157,6 +161,18 @@
   
   <url>
     <loc>https://coronamex.github.io/etiquetas/mundo/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/secciones/municipio/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/etiquetas/municipios/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/municipios/</loc>
   </url>
   
   <url>
