@@ -38,15 +38,6 @@
     </item>
     
     <item>
-      <title></title>
-      <link>https://coronamex.github.io/clinicos/tiempo_muerte/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://coronamex.github.io/clinicos/tiempo_muerte/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>¿Quién está en riesgo?</title>
       <link>https://coronamex.github.io/clinicos/riesgos_relativos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -101,11 +92,11 @@
     </item>
     
     <item>
-      <title>Municipios con transmisión activa</title>
-      <link>https://coronamex.github.io/municipios/n_municipios/</link>
+      <title>Muertes recientes</title>
+      <link>https://coronamex.github.io/estados/muertes_recientes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://coronamex.github.io/municipios/n_municipios/</guid>
+      <guid>https://coronamex.github.io/estados/muertes_recientes/</guid>
       <description></description>
     </item>
     
@@ -119,11 +110,11 @@
     </item>
     
     <item>
-      <title>¿Cómo se interpreta la letalidad?</title>
-      <link>https://coronamex.github.io/muertes/letalidad/</link>
+      <title>Letalidad en México</title>
+      <link>https://coronamex.github.io/muertes/letalidad_mexico/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://coronamex.github.io/muertes/letalidad/</guid>
+      <guid>https://coronamex.github.io/muertes/letalidad_mexico/</guid>
       <description></description>
     </item>
     

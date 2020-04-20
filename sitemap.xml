@@ -15,11 +15,11 @@
   </url>
   
   <url>
-    <loc>https://coronamex.github.io/clinicos/tiempo_muerte/</loc>
+    <loc>https://coronamex.github.io/clinicos/riesgos_relativos/</loc>
   </url>
   
   <url>
-    <loc>https://coronamex.github.io/clinicos/riesgos_relativos/</loc>
+    <loc>https://coronamex.github.io/clinicos/tiempo_muerte/</loc>
   </url>
   
   <url>
@@ -43,6 +43,14 @@
   </url>
   
   <url>
+    <loc>https://coronamex.github.io/municipios/muertes_recientes/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/estados/muertes_recientes/</loc>
+  </url>
+  
+  <url>
     <loc>https://coronamex.github.io/municipios/n_municipios/</loc>
   </url>
   
@@ -52,6 +60,10 @@
   
   <url>
     <loc>https://coronamex.github.io/muertes/letalidad/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/muertes/letalidad_mexico/</loc>
   </url>
   
   <url>
@@ -132,10 +144,6 @@
   </url>
   
   <url>
-    <loc>https://coronamex.github.io/secciones/letalidad/</loc>
-  </url>
-  
-  <url>
     <loc>https://coronamex.github.io/etiquetas/letalidad/</loc>
   </url>
   
@@ -164,7 +172,7 @@
   </url>
   
   <url>
-    <loc>https://coronamex.github.io/secciones/municipio/</loc>
+    <loc>https://coronamex.github.io/secciones/municipios/</loc>
   </url>
   
   <url>
@@ -189,6 +197,10 @@
   
   <url>
     <loc>https://coronamex.github.io/secciones/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/etiquetas/serie_tiempo/</loc>
   </url>
   
   <url>

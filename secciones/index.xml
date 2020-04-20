@@ -38,15 +38,6 @@
     </item>
     
     <item>
-      <title>letalidad</title>
-      <link>https://coronamex.github.io/secciones/letalidad/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://coronamex.github.io/secciones/letalidad/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>muertes</title>
       <link>https://coronamex.github.io/secciones/muertes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -65,11 +56,11 @@
     </item>
     
     <item>
-      <title>municipio</title>
-      <link>https://coronamex.github.io/secciones/municipio/</link>
+      <title>municipios</title>
+      <link>https://coronamex.github.io/secciones/municipios/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://coronamex.github.io/secciones/municipio/</guid>
+      <guid>https://coronamex.github.io/secciones/municipios/</guid>
       <description></description>
     </item>
     

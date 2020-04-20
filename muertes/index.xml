@@ -19,5 +19,14 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Letalidad en México</title>
+      <link>https://coronamex.github.io/muertes/letalidad_mexico/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://coronamex.github.io/muertes/letalidad_mexico/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

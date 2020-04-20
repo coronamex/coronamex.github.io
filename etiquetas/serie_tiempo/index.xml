@@ -1,23 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>muertes on </title>
-    <link>https://coronamex.github.io/secciones/muertes/</link>
-    <description>Recent content in muertes on </description>
+    <title>serie_tiempo on </title>
+    <link>https://coronamex.github.io/etiquetas/serie_tiempo/</link>
+    <description>Recent content in serie_tiempo on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-mx</language>
     
-	<atom:link href="https://coronamex.github.io/secciones/muertes/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://coronamex.github.io/etiquetas/serie_tiempo/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title></title>
-      <link>https://coronamex.github.io/clinicos/tiempo_muerte/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://coronamex.github.io/clinicos/tiempo_muerte/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Municipios con más muertes recientes</title>
@@ -38,20 +29,20 @@
     </item>
     
     <item>
+      <title>Municipios con transmisión activa</title>
+      <link>https://coronamex.github.io/municipios/n_municipios/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://coronamex.github.io/municipios/n_municipios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>¿Cómo se interpreta la letalidad?</title>
       <link>https://coronamex.github.io/muertes/letalidad/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://coronamex.github.io/muertes/letalidad/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Letalidad en México</title>
-      <link>https://coronamex.github.io/muertes/letalidad_mexico/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://coronamex.github.io/muertes/letalidad_mexico/</guid>
       <description></description>
     </item>
     
