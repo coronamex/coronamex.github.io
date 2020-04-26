@@ -47,6 +47,10 @@
   </url>
   
   <url>
+    <loc>https://coronamex.github.io/estados/r_efectiva/</loc>
+  </url>
+  
+  <url>
     <loc>https://coronamex.github.io/estados/muertes_recientes/</loc>
   </url>
   
@@ -129,6 +133,10 @@
   
   <url>
     <loc>https://coronamex.github.io/etiquetas/estimado/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/etiquetas/estimados/</loc>
   </url>
   
   <url>

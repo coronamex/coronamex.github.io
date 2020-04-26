@@ -262,37 +262,37 @@
           </li>
           
           <li class="nav-item">
-            <a data-scroll class="nav-link" href="../mundo"
+            <a data-scroll class="nav-link" href="../../mundo"
               >CONTEXTO GLOBAL</a
             >
           </li>
           
           <li class="nav-item">
-            <a data-scroll class="nav-link" href="../casos"
+            <a data-scroll class="nav-link" href="../../casos"
               >CASOS</a
             >
           </li>
           
           <li class="nav-item">
-            <a data-scroll class="nav-link" href="../estados"
+            <a data-scroll class="nav-link" href="../../estados"
               >ESTADOS</a
             >
           </li>
           
           <li class="nav-item">
-            <a data-scroll class="nav-link" href="../municipios"
+            <a data-scroll class="nav-link" href="../../municipios"
               >MUNICIPIOS</a
             >
           </li>
           
           <li class="nav-item">
-            <a data-scroll class="nav-link" href="../clinicos"
+            <a data-scroll class="nav-link" href="../../clinicos"
               >DATOS CLÍNICOS</a
             >
           </li>
           
           <li class="nav-item">
-            <a data-scroll class="nav-link" href="../muertes"
+            <a data-scroll class="nav-link" href="../../muertes"
               >MUERTES</a
             >
           </li>
@@ -306,105 +306,28 @@
   
 
   
-  <section class="section rad-animation-group pb-0">
+  <section class="section rad-animation-group pb-0" id="r_efectiva">
     <div class="container rad-fade-down">
-        <h1 align="center">Estados</h1>
+      <div class="row d-flex flex-column-reverse flex-md-row">
+        <div class="about__profile-picture col-12 col-md-6">
+          <img
+            class="lozad img-responsive image-right-overflow"
+            src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+            data-src="https://coronamex.github.io/imagenes/r_efectiva.png"
+            data-srcset="https://coronamex.github.io/imagenes/r_efectiva.png 1x, https://coronamex.github.io/imagenes/r_efectiva@2x.png 2x"
+            alt="R efectiva a través del tiempo en estados con al menos 500 casos. Mediana e intervalo modal (Highest Density Posterior [HDP]) estimados via MCMC."
+          />
+        </div>
+        <div class="col-12 col-md-6 my-auto my-auto">
+          <h2>No se ha detenido la epidemia</h2>
+          <p class="lead">
+            <p>Las epidemias avanzan porque la enfermedad se transmite de una persona a otra. La R efectiva (R_t) es el número promedio de gente contagiada por cada persona que se enferma. Si la R efectiva es más de uno la epidemia sigue creciendo, mientras que si la R efectiva es menos de uno la epidemia se acaba.</p> <p>Esta gráfica muestra como la R efectiva se ha comportado en los estados con al menos 500 casos confirmados. La línea más gruesa muestra el mejor estimado (mediana) y el área sombreada representa el rango más probable de valores (intervalo modal).</p> <p>De acuerdo a esta métrica, Baja California ha sido el estado más exitoso en mitigar la epidemia. En otras entidades la R efectiva no ha disminuido tan claramente. NOTA: Los estimados de la Ciudad de México muestran mucha mas variación de lo esperado y podría tratarse de un problema técnico.</p> <p>Este análisis se toma de <a href="https://rt.live/" target="_blank">rt.live</a> que calcula R_t para EEUU. El código para producir estimar R_t en México está <a href="https://github.com/coronamex/visualizando/blob/master/estados/rt.live.ipynb" target="_blank">aquí</a> y los estimados <a href="https://raw.githubusercontent.com/coronamex/visualizando/master/estimados/rt_live_estimados.csv" target="_blank"> aquí</a>.</p>
+          </p>
+            
+        </div>
+      </div>
     </div>
   </section>
-
-  
-    <section class="section rad-animation-group pb-0" id="estados_100mil">
-      <div class="container rad-fade-down">
-        <div class="row d-flex flex-column-reverse flex-md-row">
-          <div class="about__profile-picture col-12 col-md-6">
-            <img
-              class="lozad img-responsive image-right-overflow"
-              src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-              data-src="https://coronamex.github.io/imagenes/casos_100mil_estados.png"
-              data-srcset="https://coronamex.github.io/imagenes/casos_100mil_estados.png 1x, https://coronamex.github.io/imagenes/casos_100mil_estados@2x.png 2x"
-              alt=""
-            />
-          </div>
-          <div class="col-12 col-md-6 my-auto my-auto">
-            <h3>Situación en los estados</h3>
-            <p class="lead">
-              <p>Los lugares con más población siempre tienen más casos y por lo tanto el número total de casos no refleja la fase de la epidemia. En cambio, la cantidad de casos normalizada por población es un mejor indicador de qué tanto ha penetrado la epidemia en una región. Además, los casos normalmente se registran días después de que los pacientes muestran síntomas.</p> <p>Esta gráfica muestra el número de casos que mostraron síntomas por cada 100 mil habitantes (proyección de la CONAPO para 2020) en los 10 últimos días en las 32 entidades federativas del país.</p>
-            </p>
-              
-          </div>
-        </div>
-      </div>
-    </section>
-  
-    <section class="section rad-animation-group pb-0" id="r_efectiva">
-      <div class="container rad-fade-down">
-        <div class="row d-flex flex-column-reverse flex-md-row">
-          <div class="about__profile-picture col-12 col-md-6">
-            <img
-              class="lozad img-responsive image-right-overflow"
-              src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-              data-src="https://coronamex.github.io/imagenes/r_efectiva.png"
-              data-srcset="https://coronamex.github.io/imagenes/r_efectiva.png 1x, https://coronamex.github.io/imagenes/r_efectiva@2x.png 2x"
-              alt="R efectiva a través del tiempo en estados con al menos 500 casos. Mediana e intervalo modal (Highest Density Posterior [HDP]) estimados via MCMC."
-            />
-          </div>
-          <div class="col-12 col-md-6 my-auto my-auto">
-            <h3>No se ha detenido la epidemia</h3>
-            <p class="lead">
-              <p>Las epidemias avanzan porque la enfermedad se transmite de una persona a otra. La R efectiva (R_t) es el número promedio de gente contagiada por cada persona que se enferma. Si la R efectiva es más de uno la epidemia sigue creciendo, mientras que si la R efectiva es menos de uno la epidemia se acaba.</p> <p>Esta gráfica muestra como la R efectiva se ha comportado en los estados con al menos 500 casos confirmados. La línea más gruesa muestra el mejor estimado (mediana) y el área sombreada representa el rango más probable de valores (intervalo modal).</p> <p>De acuerdo a esta métrica, Baja California ha sido el estado más exitoso en mitigar la epidemia. En otras entidades la R efectiva no ha disminuido tan claramente. NOTA: Los estimados de la Ciudad de México muestran mucha mas variación de lo esperado y podría tratarse de un problema técnico.</p> <p>Este análisis se toma de <a href="https://rt.live/" target="_blank">rt.live</a> que calcula R_t para EEUU. El código para producir estimar R_t en México está <a href="https://github.com/coronamex/visualizando/blob/master/estados/rt.live.ipynb" target="_blank">aquí</a> y los estimados <a href="https://raw.githubusercontent.com/coronamex/visualizando/master/estimados/rt_live_estimados.csv" target="_blank"> aquí</a>.</p>
-            </p>
-              
-          </div>
-        </div>
-      </div>
-    </section>
-  
-    <section class="section rad-animation-group pb-0" id="estados_muertes_recientes">
-      <div class="container rad-fade-down">
-        <div class="row d-flex flex-column-reverse flex-md-row">
-          <div class="about__profile-picture col-12 col-md-6">
-            <img
-              class="lozad img-responsive image-right-overflow"
-              src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-              data-src="https://coronamex.github.io/imagenes/estados_muertes_recientes.png"
-              data-srcset="https://coronamex.github.io/imagenes/estados_muertes_recientes.png 1x, https://coronamex.github.io/imagenes/estados_muertes_recientes@2x.png 2x"
-              alt="Número de fallecimientos por entidad en los últimos 10 días. Sólo se muestran estados con al menos un fallecimiento confirmado por COVID-19 en este período."
-            />
-          </div>
-          <div class="col-12 col-md-6 my-auto my-auto">
-            <h3>Muertes recientes</h3>
-            <p class="lead">
-              <p>Los fallecimientos por COVID-19 son el principal costo de esta epidemia, pero no afectan a todos los estados por igual. Esta gráfica muestra el número de fallecimientos por entidad (<a href="../municipios#top_muertes_recientes_municipios">municipios</a>) en los últimos 10 días. Sólo se muestran estados con al menos un fallecimiento confirmado por COVID-19 en este período.</p> <p>Esta gráfica usa la fecha de fallecimiento de una persona para asignarla a una fecha. La mayoría de las visualizaciones en otros sitios utilizan la fecha en que se contabilizó el fallecimiento en las estadísticas de COVID-19. La fecha de fallecimiento nos da una idea más precisa de como se comporta una epidemia. Por otro lado, es posible que algunos fallecimientos en los últimos días no hayan sido contabilizados todavía.</p>
-            </p>
-              
-          </div>
-        </div>
-      </div>
-    </section>
-  
-    <section class="section rad-animation-group pb-0" id="inicio_comunitarios">
-      <div class="container rad-fade-down">
-        <div class="row d-flex flex-column-reverse flex-md-row">
-          <div class="about__profile-picture col-12 col-md-6">
-            <img
-              class="lozad img-responsive image-right-overflow"
-              src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-              data-src="https://coronamex.github.io/imagenes/inicio_comunitarios.png"
-              data-srcset="https://coronamex.github.io/imagenes/inicio_comunitarios.png 1x, https://coronamex.github.io/imagenes/inicio_comunitarios@2x.png 2x"
-              alt=""
-            />
-          </div>
-          <div class="col-12 col-md-6 my-auto my-auto">
-            <h3>¿Cuándo inició la transmisión comunitaria?</h3>
-            <p class="lead">
-              <p>El primer caso en México de una persona que no viajó al extranjero mostró síntomas el 17 de febrero en la Ciudad de México. Para el 25 de marzo, todos los estados tenían al menos un caso de este tipo.</p> <p>Para cuando iniciaron las medidas de sana distancia (23 de marzo), 30 de los 32 estados ya tenían transmisión comunitaria. Sin embargo, los datos oficiales mostraban 17 estados con este tipo de casos.</p> <p>En total hubo una mediana de 10 días de retraso entre el inicio de la transmisión comunitaria en una entidad y su detección.</p> <p>NOTA: Los datos de detección antes del 14 de marzo están incompletos. Es posible que la detección de transmisión comunitaria en la CdMX o en Querétaro haya ocurrido antes.</p> <p>NOTA2: Esta gráfica usa datos hasta 2020-04-05 porque la Secretaría de salud dejó de presentar información completa el 2020-04-06, haciendo más imprecisa la distinción entre casos comunitarios e importados.</p>
-            </p>
-              
-          </div>
-        </div>
-      </div>
-    </section>
-  
 
 
   
@@ -418,7 +341,7 @@
     <div class="footer__links">
       <ul class="navbar-nav ">
         <li class="nav-item">
-          <a class="nav-link" href="../">HOME</a>
+          <a class="nav-link" href="../../">HOME</a>
         </li>
         
         <li class="nav-item">
