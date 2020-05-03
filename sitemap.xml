@@ -39,11 +39,15 @@
   </url>
   
   <url>
-    <loc>https://coronamex.github.io/estados/estados_100mil/</loc>
+    <loc>https://coronamex.github.io/municipios/vm_casos/</loc>
   </url>
   
   <url>
-    <loc>https://coronamex.github.io/municipios/muertes_recientes/</loc>
+    <loc>https://coronamex.github.io/municipios/top_zm_casos/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/estados/estados_100mil/</loc>
   </url>
   
   <url>
@@ -52,6 +56,10 @@
   
   <url>
     <loc>https://coronamex.github.io/estados/muertes_recientes/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/municipios/muertes_recientes/</loc>
   </url>
   
   <url>
@@ -221,6 +229,10 @@
   
   <url>
     <loc>https://coronamex.github.io/etiquetas/tiempo/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/etiquetas/zona_metropolitana/</loc>
   </url>
   
 </urlset>
