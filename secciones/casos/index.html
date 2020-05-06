@@ -313,6 +313,30 @@
   </section>
 
   
+    <section class="section rad-animation-group pb-0" id="tiempo_deteccion">
+      <div class="container rad-fade-down">
+        <div class="row d-flex flex-column-reverse flex-md-row">
+          <div class="about__profile-picture col-12 col-md-6">
+            <img
+              class="lozad img-responsive image-right-overflow"
+              src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+              data-src="https://coronamex.github.io/imagenes/tiempo_deteccion.png"
+              data-srcset="https://coronamex.github.io/imagenes/tiempo_deteccion.png 1x, https://coronamex.github.io/imagenes/tiempo_deteccion@2x.png 2x"
+              alt="Arriba, esta imagen muestra las curvas de casos confirmados de COVID-19 acumulados nacionales de acuerdo a cuando iniciaron los síntomas, cuando los pacientes ingresaron a una unidad médica, y cundo el caso fue confirmado. Abajo, se muestra la probabilidad de que un casos sea detectado un número de días después del inicio de síntomas. También se muestran las distribuciones de probabilidad de tiempo de que un paciente llegue a una unidad médica, y de que el caso sea confirmado una vez que el paciente llegó a ala unidad médica"
+            />
+          </div>
+          <div class="col-12 col-md-6 my-auto my-auto">
+            <h3>¿Cuánto tarda en confirmarse un caso?</h3>
+            <p class="lead">
+              <p>La gente que se enferma de COVID-19 no llega a una unidad médica de manera inmediata, y cuando llegan a una unidad médica, la prueba diagnóstica todavía puede tardar. La parte de arriba de la gráfica muestra que en México un caso tarda típicamente 10 días desde el inicio de síntomas hasta ser confirmado, y la mayoría de los casos se confirman en menos de dos semanas. También podemos ver que más o menos la mitad del tiempo se debe al retraso entre el inicio de síntomas y el registro de un paciente en la unidad médica, y la otra mitad es la demora de la prueba.</p>
+<p>Estos números se estiman comparando las curvas de casos acumulados de acuerdo a la fecha de inicio de síntomas, la fecha de registro de los casos en una unidad médica, y el numero de caso confirmados por fecha. Estas curvas se muestran en la parte de abajo de la gráfica y el desplazamiento de las mismas hacia la derecha nos indica el retraso.</p>
+            </p>
+              
+          </div>
+        </div>
+      </div>
+    </section>
+  
     <section class="section rad-animation-group pb-0" id="nacional_sintomas">
       <div class="container rad-fade-down">
         <div class="row d-flex flex-column-reverse flex-md-row">
@@ -329,7 +353,7 @@
             <h3>Casos confirmados en México</h3>
             <p class="lead">
               <p>Esta gráfica muestra el número de casos en México de acuerdo a la fecha en que empezaron a mostrar síntomas.</p>
-<p>Debido a que pueden hay un retraso entre el tiempo que una persona contagiada de COVID-19 muestra síntomas y su caso es confirmado, los casos que detectamos hoy corresponden a contagios ocurridos días atrás (hasta dos semanas). Por lo tanto, no tenemos el número real de infecciones en los días más recientes.</p>
+<p>Debido a que hay un <a href="../../clinicos#tiempo_deteccion">retraso típico de 10 días</a> entre el tiempo que una persona contagiada de COVID-19 muestra síntomas y su caso es confirmado, los casos que se reportan hoy corresponden a contagios ocurridos días atrás (hasta dos semanas). Por lo tanto, no tenemos el número real de infecciones en los días más recientes.</p>
 <p>Sin embargo, podemos utilizar los casos que mostraron síntomas hasta hace 15 días para <a href="../../casos#sir">estimar</a> el número de casos en la actualidad y el <a href="../../casos#sir_centinela">sistema Centinela</a> para estimar el número de casos reales.</p>
             </p>
               
@@ -353,7 +377,7 @@
           <div class="col-12 col-md-6 my-auto my-auto">
             <h3>¿Cuántos casos hay en México?</h3>
             <p class="lead">
-              <p>Como se ve en esta gráfica, hay un retraso entre cuando una persona enferma de COVID-19 <span style="background-color: #cab2d6">muestra síntomas</span> y la fecha en que el caso se <span style="background-color: #b2df8a">confirma</span>. Por lo tanto, el día de hoy debe haber más casos que los confirmados. Las líneas <span style="background-color: #dfc27d">marrones</span> muestran estimados de un <a href="https://gabgoh.github.io/COVID/index.html" target="_blank">modelo epidemiológico SEIR</a> con diferentes parámetros.</p> <p>El código para ajustar, simular y graficar el modelo está <a href="https://github.com/coronamex/visualizando/blob/master/casos/sir.r" target="_blank">aquí</a>. El algoritmo busca los parámetros que mejor reproducen los casos que mostraron síntomas hasta hace dos semanas, y luego proyecta como la epidemia habría continuado desde entonces. Como las medidas de mitigación pueden desacelerar la epidemia, el algoritmo también re-calcula el <a href="https://es.wikipedia.org/wiki/Ritmo_reproductivo_b%C3%A1sico" target="_blank"> ritmo reproductivo básico</a> cada diez días (líneas rojas). Todos los valores numéricos se pueden <a href="https://raw.githubusercontent.com/coronamex/visualizando/master/estimados/seir_estimados.csv" target="_blank">descargar</a>.</p>
+              <p>Como se ve en esta gráfica, hay un <a href="../../clinicos#tiempo_deteccion">retraso</a> entre cuando una persona enferma de COVID-19 <span style="background-color: #cab2d6">muestra síntomas</span> y la fecha en que el caso se <span style="background-color: #b2df8a">confirma</span>. Por lo tanto, el día de hoy debe haber más casos que los confirmados. Las líneas <span style="background-color: #dfc27d">marrones</span> muestran estimados de un <a href="https://gabgoh.github.io/COVID/index.html" target="_blank">modelo epidemiológico SEIR</a> con diferentes parámetros.</p> <p>El código para ajustar, simular y graficar el modelo está <a href="https://github.com/coronamex/visualizando/blob/master/casos/sir.r" target="_blank">aquí</a>. El algoritmo busca los parámetros que mejor reproducen los casos que mostraron síntomas hasta hace dos semanas, y luego proyecta como la epidemia habría continuado desde entonces. Como las medidas de mitigación pueden desacelerar la epidemia, el algoritmo también re-calcula el <a href="https://es.wikipedia.org/wiki/Ritmo_reproductivo_b%C3%A1sico" target="_blank"> ritmo reproductivo básico</a> cada diez días (líneas rojas). Todos los valores numéricos se pueden <a href="https://raw.githubusercontent.com/coronamex/visualizando/master/estimados/seir_estimados.csv" target="_blank">descargar</a>.</p>
 <p>Este ejercicio no puede decirnos que pasa con la proporción de casos no detectados, para eso México usa un sistema de <a href="../../casos#sir_centinela"> vigilancia Centinela</a>.</p> <p>Esta gráfica se actualiza unas horas después que el resto del sitio.</p>
             </p>
               
@@ -379,7 +403,7 @@
             <p class="lead">
               <p>El número real de casos de COVID-19 es un parámetro esencial para determinar el riesgo de contagio de cada persona. El sistema Centinela es similar a una encuesta y permite estimar el número de casos reales aún sin diagnosticar a todos los contagiados. Desafortunadamente, sólo tenemos estimados oficiales hasta <a href="https://youtu.be/c-_kVkBFipw?t=3052" target="_blank"> la semana epidemiológica 15 (10 de abril)</a>. Como la epidemia sigue creciendo, el número de casos actual debe ser mayor.</p>
 <p>La Secretaría de Salud (SSA) no publica todos los elementos necesarios para reproducir sus estimados, así que hago algunas simplificaciones y llego a un resultado similar. Esto nos permite producir estimados en fechas más recientes.</p>
-<p>Finalmente, podemos combinar los números del sistema Centinela con un <a href="../../casos#sir">modelo SEIR</a> para corregir por el retraso en la detección de casos y estimar el número de real casos el día de hoy. Como los números de la SSA son más antiguos, las proyecciones basados en estos números son menos confiables. Todos los valores en esta gráfica se calculan <a href="https://github.com/coronamex/visualizando/blob/master/casos/centinela_preliminar.r" target="_blank">con este código</a>, y los valores numéricos se pueden <a href="https://raw.githubusercontent.com/coronamex/visualizando/master/estimados/centinela_seir_estimados.csv" target="blank">descargar</a>.</p>
+<p>Finalmente, podemos combinar los números del sistema Centinela con un <a href="../../casos#sir">modelo SEIR</a> para corregir por el <a href="../../clinicos#tiempo_deteccion">retraso</a> en la detección de casos y estimar el número de real casos el día de hoy. Como los números de la SSA son más antiguos, las proyecciones basados en estos números son menos confiables. Todos los valores en esta gráfica se calculan <a href="https://github.com/coronamex/visualizando/blob/master/casos/centinela_preliminar.r" target="_blank">con este código</a>, y los valores numéricos se pueden <a href="https://raw.githubusercontent.com/coronamex/visualizando/master/estimados/centinela_seir_estimados.csv" target="blank">descargar</a>.</p>
 <p>Esta gráfica se actualiza unas horas después que el resto del sitio.</p>
             </p>
               
@@ -404,7 +428,7 @@
             <h3>La epidemia crece en el Valle de México</h3>
             <p class="lead">
               <p>La zona metropolitana del Valle de México ha sido por mucho la región más afectada del país, acumulando cerca de la mitad de los casos confirmados. Esta gráfica muestra como el número de casos nuevos no ha dejado de aumentar.</p>
-<p>Debido a que los casos nuevos se detectan con un retraso promedio de entre nueve y quince días, es posible que el número de casos que mostraron síntomas en las últimas dos semanas aumente.</p>
+<p>Debido a que los casos nuevos se detectan con un <a href="../../clinicos#tiempo_deteccion">retraso típico de 10 días</a>, es posible que el número de casos que mostraron síntomas en las últimas dos semanas aumente.</p>
 <p>Otras <a href="../../municipios#top_zm_casos">zonas metropolitanas</a> también han sido afectadas</p>
             </p>
               
@@ -428,7 +452,9 @@
           <div class="col-12 col-md-6 my-auto my-auto">
             <h3>Cada zona metropolitana tiene su propia epidemia</h3>
             <p class="lead">
-              <p>Debido a su densidad poblacional y conexiones internas, las <a href="https://www.inegi.org.mx/app/biblioteca/ficha.html?upc=702825006792" target="_blank">zonas metropolitanas</a> son las regiones donde el COVID-19 puede avanzar con mayor facilidad, y cada una de estas regiones tiene una epidemia con características propias.</p> <p>Esta gráfica muestra el número de casos que mostraron síntomas en cada fecha para las nueve zonas metropolitanas más afectadas de México (excluyendo al <a href="../../municipios#vm_casos">Valle de México</a>).</p> <p>Cada zona metropolitana ha seguido su propia trayectoria. En Baja California, tanto Mexicali como Tijuana parecen haber superado el punto más crítico (consistente con la <a href="../../estados#r_efectiva">R efectiva</a>). En Culiacán el número de nuevos casos parece estabilizarse sin descender. Monterrey y Puebla han mostrado rebrotes importantes, mientras que Cancún, Mérida, Veracruz y Villahermosa siguen en fase de crecimiento.</p>
+              <p>Debido a su densidad poblacional y conexiones internas, las <a href="https://www.inegi.org.mx/app/biblioteca/ficha.html?upc=702825006792" target="_blank">zonas metropolitanas</a> son las regiones donde el COVID-19 puede avanzar con mayor facilidad, y cada una de estas regiones tiene una epidemia con características propias.</p>
+<p>Esta gráfica muestra el número de casos que mostraron síntomas en cada fecha para las nueve zonas metropolitanas más afectadas de México (excluyendo al <a href="../../municipios#vm_casos">Valle de México</a>).</p>
+<p>Cada zona metropolitana ha seguido su propia trayectoria. En Baja California, tanto Mexicali como Tijuana parecen haber superado el punto más crítico (consistente con la <a href="../../estados#r_efectiva">R efectiva</a>). En Culiacán el número de nuevos casos parece estabilizarse sin descender. Monterrey y Puebla han mostrado rebrotes importantes, mientras que Cancún, Mérida, Veracruz y Villahermosa siguen en fase de crecimiento.</p>
             </p>
               
           </div>
