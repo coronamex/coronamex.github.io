@@ -38,6 +38,15 @@
     </item>
     
     <item>
+      <title>Muertes confirmadas en México</title>
+      <link>https://coronamex.github.io/muertes/muertes_region/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://coronamex.github.io/muertes/muertes_region/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Muertes recientes</title>
       <link>https://coronamex.github.io/estados/muertes_recientes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
