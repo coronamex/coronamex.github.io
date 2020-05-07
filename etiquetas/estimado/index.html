@@ -376,7 +376,8 @@
           <div class="col-12 col-md-6 my-auto my-auto">
             <h3>¿Cuántos casos hay en México?</h3>
             <p class="lead">
-              <p>Como se ve en esta gráfica, hay un <a href="../../clinicos#tiempo_deteccion">retraso</a> entre cuando una persona enferma de COVID-19 <span style="background-color: #cab2d6">muestra síntomas</span> y la fecha en que el caso se <span style="background-color: #b2df8a">confirma</span>. Por lo tanto, el día de hoy debe haber más casos que los confirmados. Las líneas <span style="background-color: #dfc27d">marrones</span> muestran estimados de un <a href="https://gabgoh.github.io/COVID/index.html" target="_blank">modelo epidemiológico SEIR</a> con diferentes parámetros.</p> <p>El código para ajustar, simular y graficar el modelo está <a href="https://github.com/coronamex/visualizando/blob/master/casos/sir.r" target="_blank">aquí</a>. El algoritmo busca los parámetros que mejor reproducen los casos que mostraron síntomas hasta hace dos semanas, y luego proyecta como la epidemia habría continuado desde entonces. Como las medidas de mitigación pueden desacelerar la epidemia, el algoritmo también re-calcula el <a href="https://es.wikipedia.org/wiki/Ritmo_reproductivo_b%C3%A1sico" target="_blank"> ritmo reproductivo básico</a> cada diez días (líneas rojas). Todos los valores numéricos se pueden <a href="https://raw.githubusercontent.com/coronamex/visualizando/master/estimados/seir_estimados.csv" target="_blank">descargar</a>.</p>
+              <p>Hay un <a href="../../clinicos#tiempo_deteccion">retraso</a> en la detección de los casos de COVID-19. Por lo tanto, el día de hoy debe haber más casos que los confirmados. Las líneas <span style="background-color: #dfc27d">marrones</span> muestran estimados de un <a href="https://gabgoh.github.io/COVID/index.html" target="_blank">modelo epidemiológico SEIR</a> con diferentes parámetros.</p>
+<p>El código para ajustar, simular y graficar el modelo está <a href="https://github.com/coronamex/visualizando/blob/master/casos/sir.r" target="_blank">aquí</a>. El algoritmo busca los parámetros que mejor reproducen los casos que mostraron síntomas hasta hace dos semanas, y luego proyecta como la epidemia habría continuado desde entonces. Como las medidas de mitigación pueden desacelerar la epidemia, el algoritmo también re-calcula el <a href="https://es.wikipedia.org/wiki/Ritmo_reproductivo_b%C3%A1sico" target="_blank"> ritmo reproductivo básico</a> cada diez días (líneas rojas). Todos los valores numéricos se pueden <a href="https://raw.githubusercontent.com/coronamex/visualizando/master/estimados/seir_estimados.csv" target="_blank">descargar</a>. Esto puede además ayudarnos a detectar si estamos <a href="../../casos#aplanamiento">aplanando la curva</a>.</p>
 <p>Este ejercicio no puede decirnos que pasa con la proporción de casos no detectados, para eso México usa un sistema de <a href="../../casos#sir_centinela"> vigilancia Centinela</a>.</p> <p>Esta gráfica se actualiza unas horas después que el resto del sitio.</p>
             </p>
               
@@ -404,6 +405,30 @@
 <p>La Secretaría de Salud (SSA) no publica todos los elementos necesarios para reproducir sus estimados, así que hago algunas simplificaciones y llego a un resultado similar. Esto nos permite producir estimados en fechas más recientes.</p>
 <p>Finalmente, podemos combinar los números del sistema Centinela con un <a href="../../casos#sir">modelo SEIR</a> para corregir por el <a href="../../clinicos#tiempo_deteccion">retraso</a> en la detección de casos y estimar el número de real casos el día de hoy. Como los números de la SSA son más antiguos, las proyecciones basados en estos números son menos confiables. Todos los valores en esta gráfica se calculan <a href="https://github.com/coronamex/visualizando/blob/master/casos/centinela_preliminar.r" target="_blank">con este código</a>, y los valores numéricos se pueden <a href="https://raw.githubusercontent.com/coronamex/visualizando/master/estimados/centinela_seir_estimados.csv" target="blank">descargar</a>.</p>
 <p>Esta gráfica se actualiza unas horas después que el resto del sitio.</p>
+            </p>
+              
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section class="section rad-animation-group pb-0" id="aplanamiento">
+      <div class="container rad-fade-down">
+        <div class="row d-flex flex-column-reverse flex-md-row">
+          <div class="about__profile-picture col-12 col-md-6">
+            <img
+              class="lozad img-responsive image-right-overflow"
+              src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+              data-src="https://coronamex.github.io/imagenes/aplanamiento.png"
+              data-srcset="https://coronamex.github.io/imagenes/aplanamiento.png 1x, https://coronamex.github.io/imagenes/aplanamiento@2x.png 2x"
+              alt="Pronósitcos de modelo SEIR ajustado en fecha más reciente con velocidades de días previos."
+            />
+          </div>
+          <div class="col-12 col-md-6 my-auto my-auto">
+            <h3>Probablemente sí hemos aplanado la curva</h3>
+            <p class="lead">
+              <p>Aplanar la curva significa reducir la velocidad con la que aparecen nuevos casos. Nunca podemos estar cien por ciento seguros de qué hubiera pasado si las cosas fueran diferentes, pero podemos usar un <a href="../../casos#sir">modelo epidemiológico</a> para simular cuantos casos habría si hubieran seguido creciendo a la misma velocidad que hace algún tiempo.</p>
+<p>Esta gráfica muestra lo que varios modelos pronostican que hubiera pasado (líneas punteadas), y lo que los mismos modelos estiman está pasando ahora (líneas sólidas) con el número de casos confirmados. Los modelos difieren porque hacen diferente supuestos sobre el comportamiento de la enfermedad y porque se ajustan al crecimiento en diferentes fechas. A pesar de eso, la mayoría de los modelos coinciden en que los casos se están acumulando más lentamente de lo que esperábamos hace semanas, pero hay algunas excepciones. Por lo tanto, lo más probable es que se haya aplanado la curva, pero es mucho más difícil determinar el efecto neto de las medidas de mitigación.</p>
             </p>
               
           </div>

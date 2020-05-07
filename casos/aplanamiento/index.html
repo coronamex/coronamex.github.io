@@ -306,111 +306,29 @@
   
 
   
-  <section class="section rad-animation-group pb-0">
+  <section class="section rad-animation-group pb-0" id="aplanamiento">
     <div class="container rad-fade-down">
-        <h1 align="center">modelo</h1>
+      <div class="row d-flex flex-column-reverse flex-md-row">
+        <div class="about__profile-picture col-12 col-md-6">
+          <img
+            class="lozad img-responsive image-right-overflow"
+            src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+            data-src="https://coronamex.github.io/imagenes/aplanamiento.png"
+            data-srcset="https://coronamex.github.io/imagenes/aplanamiento.png 1x, https://coronamex.github.io/imagenes/aplanamiento@2x.png 2x"
+            alt="Pronósitcos de modelo SEIR ajustado en fecha más reciente con velocidades de días previos."
+          />
+        </div>
+        <div class="col-12 col-md-6 my-auto my-auto">
+          <h2>Probablemente sí hemos aplanado la curva</h2>
+          <p class="lead">
+            <p>Aplanar la curva significa reducir la velocidad con la que aparecen nuevos casos. Nunca podemos estar cien por ciento seguros de qué hubiera pasado si las cosas fueran diferentes, pero podemos usar un <a href="../../casos#sir">modelo epidemiológico</a> para simular cuantos casos habría si hubieran seguido creciendo a la misma velocidad que hace algún tiempo.</p>
+<p>Esta gráfica muestra lo que varios modelos pronostican que hubiera pasado (líneas punteadas), y lo que los mismos modelos estiman está pasando ahora (líneas sólidas) con el número de casos confirmados. Los modelos difieren porque hacen diferente supuestos sobre el comportamiento de la enfermedad y porque se ajustan al crecimiento en diferentes fechas. A pesar de eso, la mayoría de los modelos coinciden en que los casos se están acumulando más lentamente de lo que esperábamos hace semanas, pero hay algunas excepciones. Por lo tanto, lo más probable es que se haya aplanado la curva, pero es mucho más difícil determinar el efecto neto de las medidas de mitigación.</p>
+          </p>
+            
+        </div>
+      </div>
     </div>
   </section>
-
-  
-    <section class="section rad-animation-group pb-0" id="sir">
-      <div class="container rad-fade-down">
-        <div class="row d-flex flex-column-reverse flex-md-row">
-          <div class="about__profile-picture col-12 col-md-6">
-            <img
-              class="lozad img-responsive image-right-overflow"
-              src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-              data-src="https://coronamex.github.io/imagenes/sir_nacional.png"
-              data-srcset="https://coronamex.github.io/imagenes/sir_nacional.png 1x, https://coronamex.github.io/imagenes/sir_nacional@2x.png 2x"
-              alt="Resultados del modelos epidemiológico compartamentalizado SEIR. El modelo se ajusta con datos de COVID-19 en Méxido a nivel nacional hasta la fecha indicada. Además el modelo asume que el número reproductivo básico (R0) cambia cada cierto número de días (10) indicados por las líneas rojas. Los tiempos de infección y de incubación son explorados en una matriz de valores, mientras que R0 y su cambio en el tiempo son optimizados por mínimos cuadrados usando &#34;Simulated Annealing&#34;. El ajuste de datos utiliza las fechas de inicio de síntomas proporcionados por los datos abiertos de la SSA en la fecha más reciente."
-            />
-          </div>
-          <div class="col-12 col-md-6 my-auto my-auto">
-            <h3>¿Cuántos casos hay en México?</h3>
-            <p class="lead">
-              <p>Hay un <a href="../../clinicos#tiempo_deteccion">retraso</a> en la detección de los casos de COVID-19. Por lo tanto, el día de hoy debe haber más casos que los confirmados. Las líneas <span style="background-color: #dfc27d">marrones</span> muestran estimados de un <a href="https://gabgoh.github.io/COVID/index.html" target="_blank">modelo epidemiológico SEIR</a> con diferentes parámetros.</p>
-<p>El código para ajustar, simular y graficar el modelo está <a href="https://github.com/coronamex/visualizando/blob/master/casos/sir.r" target="_blank">aquí</a>. El algoritmo busca los parámetros que mejor reproducen los casos que mostraron síntomas hasta hace dos semanas, y luego proyecta como la epidemia habría continuado desde entonces. Como las medidas de mitigación pueden desacelerar la epidemia, el algoritmo también re-calcula el <a href="https://es.wikipedia.org/wiki/Ritmo_reproductivo_b%C3%A1sico" target="_blank"> ritmo reproductivo básico</a> cada diez días (líneas rojas). Todos los valores numéricos se pueden <a href="https://raw.githubusercontent.com/coronamex/visualizando/master/estimados/seir_estimados.csv" target="_blank">descargar</a>. Esto puede además ayudarnos a detectar si estamos <a href="../../casos#aplanamiento">aplanando la curva</a>.</p>
-<p>Este ejercicio no puede decirnos que pasa con la proporción de casos no detectados, para eso México usa un sistema de <a href="../../casos#sir_centinela"> vigilancia Centinela</a>.</p> <p>Esta gráfica se actualiza unas horas después que el resto del sitio.</p>
-            </p>
-              
-          </div>
-        </div>
-      </div>
-    </section>
-  
-    <section class="section rad-animation-group pb-0" id="aplanamiento">
-      <div class="container rad-fade-down">
-        <div class="row d-flex flex-column-reverse flex-md-row">
-          <div class="about__profile-picture col-12 col-md-6">
-            <img
-              class="lozad img-responsive image-right-overflow"
-              src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-              data-src="https://coronamex.github.io/imagenes/aplanamiento.png"
-              data-srcset="https://coronamex.github.io/imagenes/aplanamiento.png 1x, https://coronamex.github.io/imagenes/aplanamiento@2x.png 2x"
-              alt="Pronósitcos de modelo SEIR ajustado en fecha más reciente con velocidades de días previos."
-            />
-          </div>
-          <div class="col-12 col-md-6 my-auto my-auto">
-            <h3>Probablemente sí hemos aplanado la curva</h3>
-            <p class="lead">
-              <p>Aplanar la curva significa reducir la velocidad con la que aparecen nuevos casos. Nunca podemos estar cien por ciento seguros de qué hubiera pasado si las cosas fueran diferentes, pero podemos usar un <a href="../../casos#sir">modelo epidemiológico</a> para simular cuantos casos habría si hubieran seguido creciendo a la misma velocidad que hace algún tiempo.</p>
-<p>Esta gráfica muestra lo que varios modelos pronostican que hubiera pasado (líneas punteadas), y lo que los mismos modelos estiman está pasando ahora (líneas sólidas) con el número de casos confirmados. Los modelos difieren porque hacen diferente supuestos sobre el comportamiento de la enfermedad y porque se ajustan al crecimiento en diferentes fechas. A pesar de eso, la mayoría de los modelos coinciden en que los casos se están acumulando más lentamente de lo que esperábamos hace semanas, pero hay algunas excepciones. Por lo tanto, lo más probable es que se haya aplanado la curva, pero es mucho más difícil determinar el efecto neto de las medidas de mitigación.</p>
-            </p>
-              
-          </div>
-        </div>
-      </div>
-    </section>
-  
-    <section class="section rad-animation-group pb-0" id="r_efectiva">
-      <div class="container rad-fade-down">
-        <div class="row d-flex flex-column-reverse flex-md-row">
-          <div class="about__profile-picture col-12 col-md-6">
-            <img
-              class="lozad img-responsive image-right-overflow"
-              src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-              data-src="https://coronamex.github.io/imagenes/r_efectiva.png"
-              data-srcset="https://coronamex.github.io/imagenes/r_efectiva.png 1x, https://coronamex.github.io/imagenes/r_efectiva@2x.png 2x"
-              alt="R efectiva a través del tiempo en estados con al menos 500 casos. Mediana e intervalo modal (Highest Density Posterior [HDP]) estimados via MCMC."
-            />
-          </div>
-          <div class="col-12 col-md-6 my-auto my-auto">
-            <h3>No se ha detenido la epidemia</h3>
-            <p class="lead">
-              <p>Las epidemias avanzan porque la enfermedad se transmite de una persona a otra. La R efectiva (R_t) es el número promedio de gente contagiada por cada persona que se enferma. Si la R efectiva es más de uno los casos aumentan, mientras que si la R efectiva es menos de uno cada vez hay menos casos.</p>
-<p>Esta gráfica muestra como la R efectiva se ha comportado en los estados con al menos 500 casos confirmados. La línea más gruesa muestra el mejor estimado (mediana) y el área sombreada representa el rango más probable de valores (intervalo modal de 90%). Los estimados se recalculan cada noche para todas las fechas con los datos más recientes.</p>
-<p>De acuerdo a esta métrica, Baja California ha sido la entidad más exitosa en mitigar la epidemia, consistente con lo que vemos en sus <a href="../../municipios#top_zm_casos">zonas metropolitanas</a>. En otras entidades ha disminuido pero mucho menos de lo necesario.</p>
-<p>Este análisis se basa en <a href="https://rt.live/" target="_blank">rt.live</a> que calcula R_t para EEUU. El código para estimar la R efectiva en México está <a href="https://github.com/coronamex/visualizando/blob/master/estados/rt.live.ipynb" target="_blank">aquí</a> y los estimados <a href="https://raw.githubusercontent.com/coronamex/visualizando/master/estimados/rt_live_estimados.csv" target="_blank"> aquí</a>.</p>
-            </p>
-              
-          </div>
-        </div>
-      </div>
-    </section>
-  
-    <section class="section rad-animation-group pb-0" id="letalidad">
-      <div class="container rad-fade-down">
-        <div class="row d-flex flex-column-reverse flex-md-row">
-          <div class="about__profile-picture col-12 col-md-6">
-            <img
-              class="lozad img-responsive image-right-overflow"
-              src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-              data-src="https://coronamex.github.io/imagenes/letalidad_diagrama.png"
-              data-srcset="https://coronamex.github.io/imagenes/letalidad_diagrama.png 1x, https://coronamex.github.io/imagenes/letalidad_diagrama@2x.png 2x"
-              alt="Diagrama que ilustra las dificultades de estimar la letalidad durante una epidemia. La letalidad verdadera y el número de nuevos casos infecciosos y muertes acumulados de una simulación con un modelo SEIRD. Dos estimadores de letalidad (instantánea y con retraso) se muestran. Ninguno hace un buen trabajo durante la epidemia pero convergen una vez que el pico epidémico ha pasado."
-            />
-          </div>
-          <div class="col-12 col-md-6 my-auto my-auto">
-            <h3>¿Cómo se interpreta la letalidad?</h3>
-            <p class="lead">
-              <p>La letalidad es la proporción de gente enferma que termina falleciendo. Es un parámetro importante pero es casi imposible medirlo en tiempo real. Esto se ilustra con una simulación. Si pudiéramos medir todos los nuevos casos instantáneamente, terminaríamos subestimando la verdadera letalidad. Por otro lado, el retraso entre la aparición de un caso y su detección provoca que sobrestimemos la verdadera letalidad.</p> <p>En el mundo real, el cálculo es todavía más complicado porque no detectamos todos los casos, y porque variaciones regionales causan diferentes tipos de error.</p> <p>La simulación muestra que es posible estimar la letalidad de manera retrospectiva, una vez que no hay nuevos casos. Usando este principio, podemos usar la letalidad del COVID-19 en China (4.2%) y Corea del Sur (1.1%) para darnos una idea de lo que podemos esperar. La diferencia de 3% es el efecto entre la eficiencia de las medidas de mitigación. <strong>Quédate en Casa</strong>.</p>
-            </p>
-              
-          </div>
-        </div>
-      </div>
-    </section>
-  
 
 
   
