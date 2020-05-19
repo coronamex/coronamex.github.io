@@ -51,6 +51,10 @@
   </url>
   
   <url>
+    <loc>https://coronamex.github.io/socioeconomicos/indigena_incidencia/</loc>
+  </url>
+  
+  <url>
     <loc>https://coronamex.github.io/casos/aplanamiento_diagrama/</loc>
   </url>
   
@@ -83,6 +87,10 @@
   </url>
   
   <url>
+    <loc>https://coronamex.github.io/socioeconomicos/coneval_ind/</loc>
+  </url>
+  
+  <url>
     <loc>https://coronamex.github.io/estados/inicio_comunitarios/</loc>
   </url>
   
@@ -91,12 +99,24 @@
   </url>
   
   <url>
+    <loc>https://coronamex.github.io/municipios/incidencia_obs_esp/</loc>
+  </url>
+  
+  <url>
     <loc>https://coronamex.github.io/muertes/letalidad_mexico/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/municipios/mapa_exceso_incidencia/</loc>
   </url>
   
   <url>
     <loc>https://coronamex.github.io/</loc>
     <lastmod>2020-03-31T13:49:04-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/socioeconomicos/</loc>
   </url>
   
   <url>
@@ -180,6 +200,10 @@
   </url>
   
   <url>
+    <loc>https://coronamex.github.io/etiquetas/mapa/</loc>
+  </url>
+  
+  <url>
     <loc>https://coronamex.github.io/etiquetas/modelo/</loc>
   </url>
   
@@ -237,6 +261,14 @@
   
   <url>
     <loc>https://coronamex.github.io/etiquetas/sir/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/secciones/socioecon%C3%B3micos/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/etiquetas/socioecon%C3%B3micos/</loc>
   </url>
   
   <url>

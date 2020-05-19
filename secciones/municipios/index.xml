@@ -46,5 +46,23 @@
       <description></description>
     </item>
     
+    <item>
+      <title>¿Por qué hay municipios con más casos?</title>
+      <link>https://coronamex.github.io/municipios/incidencia_obs_esp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://coronamex.github.io/municipios/incidencia_obs_esp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>¿Qué municipios tienen más casos de los esperados?</title>
+      <link>https://coronamex.github.io/municipios/mapa_exceso_incidencia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://coronamex.github.io/municipios/mapa_exceso_incidencia/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

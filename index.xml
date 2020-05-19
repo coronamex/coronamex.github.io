@@ -120,6 +120,15 @@
     </item>
     
     <item>
+      <title>Las comunidades indígenas son más vulnerables</title>
+      <link>https://coronamex.github.io/socioeconomicos/indigena_incidencia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://coronamex.github.io/socioeconomicos/indigena_incidencia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>¿Qué es el &#34;aplanado&#34; de la curva?</title>
       <link>https://coronamex.github.io/casos/aplanamiento_diagrama/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -192,6 +201,15 @@
     </item>
     
     <item>
+      <title>Los municipios más pobres son más vulnerables</title>
+      <link>https://coronamex.github.io/socioeconomicos/coneval_ind/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://coronamex.github.io/socioeconomicos/coneval_ind/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>¿Cuándo inició la transmisión comunitaria?</title>
       <link>https://coronamex.github.io/estados/inicio_comunitarios/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -210,11 +228,29 @@
     </item>
     
     <item>
+      <title>¿Por qué hay municipios con más casos?</title>
+      <link>https://coronamex.github.io/municipios/incidencia_obs_esp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://coronamex.github.io/municipios/incidencia_obs_esp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Letalidad en México</title>
       <link>https://coronamex.github.io/muertes/letalidad_mexico/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://coronamex.github.io/muertes/letalidad_mexico/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>¿Qué municipios tienen más casos de los esperados?</title>
+      <link>https://coronamex.github.io/municipios/mapa_exceso_incidencia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://coronamex.github.io/municipios/mapa_exceso_incidencia/</guid>
       <description></description>
     </item>
     

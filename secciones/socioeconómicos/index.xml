@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>socioeconómicos on </title>
+    <link>https://coronamex.github.io/secciones/socioecon%C3%B3micos/</link>
+    <description>Recent content in socioeconómicos on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-mx</language>
+    
+	<atom:link href="https://coronamex.github.io/secciones/socioecon%C3%B3micos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Las comunidades indígenas son más vulnerables</title>
+      <link>https://coronamex.github.io/socioeconomicos/indigena_incidencia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://coronamex.github.io/socioeconomicos/indigena_incidencia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Los municipios más pobres son más vulnerables</title>
+      <link>https://coronamex.github.io/socioeconomicos/coneval_ind/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://coronamex.github.io/socioeconomicos/coneval_ind/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
