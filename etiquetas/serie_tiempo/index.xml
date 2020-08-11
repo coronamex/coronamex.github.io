@@ -11,20 +11,11 @@
     
     
     <item>
-      <title>Mayores de 60 años son más vulnerables</title>
+      <title>Mayores de 60 son vulnerables, jóvenes alimentan la epidemia</title>
       <link>https://coronamex.github.io/clinicos/casos_def_por_edad/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://coronamex.github.io/clinicos/casos_def_por_edad/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Casos confirmados en México</title>
-      <link>https://coronamex.github.io/casos/nacional_sintomas/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://coronamex.github.io/casos/nacional_sintomas/</guid>
       <description></description>
     </item>
     
@@ -34,6 +25,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://coronamex.github.io/muertes/muertes_tipomun/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Casos y hospitalizaciones</title>
+      <link>https://coronamex.github.io/casos/nacional_sintomas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://coronamex.github.io/casos/nacional_sintomas/</guid>
       <description></description>
     </item>
     
