@@ -19,6 +19,10 @@
   </url>
   
   <url>
+    <loc>https://coronamex.github.io/clinicos/ocupacion_hospitalaria/</loc>
+  </url>
+  
+  <url>
     <loc>https://coronamex.github.io/clinicos/casos_def_por_edad/</loc>
   </url>
   
@@ -241,6 +245,10 @@
   
   <url>
     <loc>https://coronamex.github.io/etiquetas/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/etiquetas/hospitalicaciones/</loc>
   </url>
   
   <url>
