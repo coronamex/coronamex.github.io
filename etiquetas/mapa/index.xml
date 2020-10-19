@@ -5,11 +5,7 @@
     <link>https://coronamex.github.io/etiquetas/mapa/</link>
     <description>Recent content in mapa on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es-mx</language>
-    
-	<atom:link href="https://coronamex.github.io/etiquetas/mapa/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>es-mx</language><atom:link href="https://coronamex.github.io/etiquetas/mapa/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>¿Qué municipios tienen más casos de los esperados?</title>
       <link>https://coronamex.github.io/municipios/mapa_exceso_incidencia/</link>

@@ -5,11 +5,7 @@
     <link>https://coronamex.github.io/etiquetas/hospitalicaciones/</link>
     <description>Recent content in hospitalicaciones on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es-mx</language>
-    
-	<atom:link href="https://coronamex.github.io/etiquetas/hospitalicaciones/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>es-mx</language><atom:link href="https://coronamex.github.io/etiquetas/hospitalicaciones/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ocupación hospitalaria</title>
       <link>https://coronamex.github.io/clinicos/ocupacion_hospitalaria/</link>
