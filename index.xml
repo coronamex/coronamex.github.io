@@ -134,65 +134,11 @@
     </item>
     
     <item>
-      <title>El costo humano de la epidemia</title>
-      <link>https://coronamex.github.io/muertes/exceso_mortalidad_nacional/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://coronamex.github.io/muertes/exceso_mortalidad_nacional/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Exceso de mortalidad estatal (1/4)</title>
-      <link>https://coronamex.github.io/muertes/exceso_mortalidad_estados1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://coronamex.github.io/muertes/exceso_mortalidad_estados1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Exceso de mortalidad estatal (2/4)</title>
-      <link>https://coronamex.github.io/muertes/exceso_mortalidad_estados2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://coronamex.github.io/muertes/exceso_mortalidad_estados2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Exceso de mortalidad estatal (3/4)</title>
-      <link>https://coronamex.github.io/muertes/exceso_mortalidad_estados3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://coronamex.github.io/muertes/exceso_mortalidad_estados3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Exceso de mortalidad estatal (4/4)</title>
-      <link>https://coronamex.github.io/muertes/exceso_mortalidad_estados4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://coronamex.github.io/muertes/exceso_mortalidad_estados4/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Casos y hospitalizaciones</title>
       <link>https://coronamex.github.io/casos/nacional_sintomas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://coronamex.github.io/casos/nacional_sintomas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Muertes confirmadas en México</title>
-      <link>https://coronamex.github.io/muertes/muertes_region/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://coronamex.github.io/muertes/muertes_region/</guid>
       <description></description>
     </item>
     
@@ -323,6 +269,51 @@
     </item>
     
     <item>
+      <title>El costo humano de la epidemia</title>
+      <link>https://coronamex.github.io/muertes/exceso_mortalidad_nacional/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://coronamex.github.io/muertes/exceso_mortalidad_nacional/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exceso de mortalidad estatal (1/4)</title>
+      <link>https://coronamex.github.io/muertes/exceso_mortalidad_estados1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://coronamex.github.io/muertes/exceso_mortalidad_estados1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exceso de mortalidad estatal (2/4)</title>
+      <link>https://coronamex.github.io/muertes/exceso_mortalidad_estados2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://coronamex.github.io/muertes/exceso_mortalidad_estados2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exceso de mortalidad estatal (3/4)</title>
+      <link>https://coronamex.github.io/muertes/exceso_mortalidad_estados3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://coronamex.github.io/muertes/exceso_mortalidad_estados3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exceso de mortalidad estatal (4/4)</title>
+      <link>https://coronamex.github.io/muertes/exceso_mortalidad_estados4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://coronamex.github.io/muertes/exceso_mortalidad_estados4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>La epidemia se desacelera pero permanece</title>
       <link>https://coronamex.github.io/estados/r_efectiva/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -337,6 +328,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://coronamex.github.io/municipios/top_zm_casos3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Muertes confirmadas en México</title>
+      <link>https://coronamex.github.io/muertes/muertes_region/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://coronamex.github.io/muertes/muertes_region/</guid>
       <description></description>
     </item>
     
@@ -359,11 +359,29 @@
     </item>
     
     <item>
+      <title>¿Cómo se interpreta la letalidad?</title>
+      <link>https://coronamex.github.io/muertes/letalidad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://coronamex.github.io/muertes/letalidad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Municipios con transmisión activa</title>
       <link>https://coronamex.github.io/municipios/n_municipios/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://coronamex.github.io/municipios/n_municipios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Letalidad en México</title>
+      <link>https://coronamex.github.io/muertes/letalidad_mexico/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://coronamex.github.io/muertes/letalidad_mexico/</guid>
       <description></description>
     </item>
     
@@ -386,29 +404,11 @@
     </item>
     
     <item>
-      <title>¿Cómo se interpreta la letalidad?</title>
-      <link>https://coronamex.github.io/muertes/letalidad/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://coronamex.github.io/muertes/letalidad/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>¿Por qué hay municipios con más casos?</title>
       <link>https://coronamex.github.io/municipios/incidencia_obs_esp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://coronamex.github.io/municipios/incidencia_obs_esp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Letalidad en México</title>
-      <link>https://coronamex.github.io/muertes/letalidad_mexico/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://coronamex.github.io/muertes/letalidad_mexico/</guid>
       <description></description>
     </item>
     

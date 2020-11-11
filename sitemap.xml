@@ -59,31 +59,7 @@
   </url>
   
   <url>
-    <loc>https://coronamex.github.io/muertes/exceso_mortalidad_nacional/</loc>
-  </url>
-  
-  <url>
-    <loc>https://coronamex.github.io/muertes/exceso_mortalidad_estados1/</loc>
-  </url>
-  
-  <url>
-    <loc>https://coronamex.github.io/muertes/exceso_mortalidad_estados2/</loc>
-  </url>
-  
-  <url>
-    <loc>https://coronamex.github.io/muertes/exceso_mortalidad_estados3/</loc>
-  </url>
-  
-  <url>
-    <loc>https://coronamex.github.io/muertes/exceso_mortalidad_estados4/</loc>
-  </url>
-  
-  <url>
     <loc>https://coronamex.github.io/casos/nacional_sintomas/</loc>
-  </url>
-  
-  <url>
-    <loc>https://coronamex.github.io/muertes/muertes_region/</loc>
   </url>
   
   <url>
@@ -143,11 +119,35 @@
   </url>
   
   <url>
+    <loc>https://coronamex.github.io/muertes/exceso_mortalidad_nacional/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/muertes/exceso_mortalidad_estados1/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/muertes/exceso_mortalidad_estados2/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/muertes/exceso_mortalidad_estados3/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/muertes/exceso_mortalidad_estados4/</loc>
+  </url>
+  
+  <url>
     <loc>https://coronamex.github.io/estados/r_efectiva/</loc>
   </url>
   
   <url>
     <loc>https://coronamex.github.io/municipios/top_zm_casos3/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/muertes/muertes_region/</loc>
   </url>
   
   <url>
@@ -159,7 +159,15 @@
   </url>
   
   <url>
+    <loc>https://coronamex.github.io/muertes/letalidad/</loc>
+  </url>
+  
+  <url>
     <loc>https://coronamex.github.io/municipios/n_municipios/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/muertes/letalidad_mexico/</loc>
   </url>
   
   <url>
@@ -171,15 +179,7 @@
   </url>
   
   <url>
-    <loc>https://coronamex.github.io/muertes/letalidad/</loc>
-  </url>
-  
-  <url>
     <loc>https://coronamex.github.io/municipios/incidencia_obs_esp/</loc>
-  </url>
-  
-  <url>
-    <loc>https://coronamex.github.io/muertes/letalidad_mexico/</loc>
   </url>
   
   <url>
