@@ -1,1 +1,0 @@
-# coronamex.github.io
