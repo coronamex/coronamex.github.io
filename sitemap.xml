@@ -3,18 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://coronamex.github.io/mundo/mejor_curva/</loc>
-  </url>
-  
-  <url>
-    <loc>https://coronamex.github.io/mundo/casos/</loc>
-  </url>
-  
-  <url>
-    <loc>https://coronamex.github.io/mundo/muertes/</loc>
-  </url>
-  
-  <url>
     <loc>https://coronamex.github.io/clinicos/riesgos_relativos/</loc>
   </url>
   
@@ -59,7 +47,15 @@
   </url>
   
   <url>
+    <loc>https://coronamex.github.io/mundo/muertes_mundiales/</loc>
+  </url>
+  
+  <url>
     <loc>https://coronamex.github.io/casos/nacional_sintomas/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/mundo/paises_mortalidad_reciente/</loc>
   </url>
   
   <url>
