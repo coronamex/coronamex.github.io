@@ -366,7 +366,7 @@
           <div class="col-12 col-md-6 my-auto my-auto">
             <h3>¿Cuál es el estado de la epidemia?</h3>
             <p class="lead">
-              <p>A nivel nacional la epidemia acumula semanas de descenso sostenido tanto en contagios como en <a href="./muertes#muertes_tipomun">fallecimientos</a>. A nivel local, el relajamiento de las medidas de mitigación ha llevado a ligeros incrementos en los días más recientes. Todavía estamos a tiempo de evitar otra gran "ola" pero es necesario seguir con las medidas de mitigación y vacunarse cuando sea nuestro turno.</p>
+              <p>A nivel nacional la epidemia acumula meses de descenso sostenido tanto en contagios como en <a href="./muertes#muertes_tipomun">fallecimientos</a>, y además hay <a href="./clinicos#mortalidad_edad_tipomun">buenas</a> <a href="./clinicos#casos_def_por_edad">señales</a> tempranas del programa de vacunación. Sin embargo, el riesgo de una tercera "ola" permanece, y hay varios <a href="./municipios#top_zm_casos">repuntes a nivel local</a>. Por eso es importante mantener todas las medidas de prevención y vacunarnos cuando sea nuestro turno.</p>
 <p>La gráfica muestra el número de casos registrados (barras) y utiliza <a href="https://gabgoh.github.io/COVID/index.html" target="_blank">modelo epidemiológico SEIR</a> para estimar el estado más probable de la epidemia al día de hoy (áreas sombreadas). La estimación se realiza con <a href="https://github.com/coronamex/visualizando/blob/master/casos/stan_seir.r" target="_blank">este código</a> y los valores numéricos están <a href="https://github.com/coronamex/visualizando/tree/master/estimados" target="_blank">aquí</a>. Sólo se usan los últimos 6 meses.</p>
 <p>Ningún modelo captura la realidad completa, este modelo no puede pronosticar un futuro lejano, ni estima el sub-registro de casos (para eso está el sistema <a href="./casos#sir_centinela"> Centinela</a>). Este modelo tampoco considera variaciones locales <a href="./estados#r_efectiva">entre</a> <a href="./estados#estados_casos_100mil">estados</a> y <a href="./municipios#vm_casos">zonas</a> <a href="./municipios#top_zm_casos.md">metropolitanas</a>. Por otro lado, este modelo sí puede usarse para medir el <a href="./casos#aplanamiento">aplanado de la curva</a>.</p> 
             </p>
@@ -389,11 +389,35 @@
             />
           </div>
           <div class="col-12 col-md-6 my-auto my-auto">
-            <h3>La segunda &#34;ola&#34; no ha terminado</h3>
+            <h3>La epidemia sigue cobrando vidas</h3>
             <p class="lead">
               <p>Esta gráfica muestra el número de fallecimientos confirmados por COVID-19 en el país que corresponden al <a href="./municipios#vm_casos">Valle de México</a>, <a href="./municipios#top_zm_casos">otras</a> <a href="./municipios#top_zm_casos2">zonas</a> <a href="./municipios#top_zm_casos3">metropolitanas</a>, y zonas no metropolitanas. Los fallecimientos continúan a la alza a nivel nacional.</p>
-<p>Al principio de la segunda "ola" la mayoría de los nuevos fallecimientos se concentraron en el Valle de México, y luego se extendieron al interior del país. Llevamos ya semanas de descenso sostenido en el número de defunciones confirmadas lo cual sugiere que la epidemia disminuye a nivel nacional, aunque es posible que el epicentro de la epidemia se mueva a otras <a href="./muertes#muertes_region">regiones</a>. De cualquier manera, la mortalidad e incidencia permanecen en uno de los niveles más altos de la epidemia, por lo que es necesario mantener todas las precauciones.</p>
+<p>Tras varios meses de descenso sostenido en el número de fallecimientos la situación no es crítica a nivel nacional, y hay <a href="./clinicos#mortalidad_edad_tipomun">buenas</a> <a href="./clinicos#casos_def_por_edad">señales</a> tempranas del programa de vacunación. Sin embargo, en el mundo sigue <a href="./mundo#muertes_mundiales">en un momento crítico</a> y siempre existe el riesgo de que la situación empeore rápidamente, por lo que necesario mantener todas las precauciones y vacunarse cuando nos toque.</p>
 <p>Los fallecimientos confirmados no son la unica consecuencia mortal de la epidemia. El <a href="./muertes#exceso_mortalidad_nacional">exceso de mortalidad</a> puede usarse para medir las consecuencias directas e indirectas del COVID-19.</p>
+            </p>
+              
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section class="section rad-animation-group pb-0" id="mortalidad_edad_tipomun">
+      <div class="container rad-fade-down">
+        <div class="row d-flex flex-column-reverse flex-md-row">
+          <div class="about__profile-picture col-12 col-md-6">
+            <img
+              class="lozad img-responsive image-right-overflow"
+              src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+              data-src="https://coronamex.github.io/imagenes/mortalidad_edad_tipomun.png"
+              data-srcset="https://coronamex.github.io/imagenes/mortalidad_edad_tipomun.png 1x, https://coronamex.github.io/imagenes/mortalidad_edad_tipomun@2x.png 2x"
+              alt="Mortalidad en ventana móvil de 7 días y como proporción del máximo de cada &#34;ola&#34; por edad y tipo de municipio días después de cada &#34;ola&#34;."
+            />
+          </div>
+          <div class="col-12 col-md-6 my-auto my-auto">
+            <h3>La vacunación está funcionando</h3>
+            <p class="lead">
+              <p>Para saber si la vacunación está funcionando necesitamos comparar poblaciones que hayan sido vacunadas con otras que no lo hayan sido. En México la vacunación contra COVID-19 inició en adultos de 60 ó más años que residen en municipios no metropolitanos. Observamos que en abril de 2021, después de la segunda "ola", los fallecimientos han empezado a disminuir más rápidamente justo en el grupo de edad que se vacunó primero, y en los municipios que se vacunaros primero. Esta diferencia no ocurrió después de la primera "ola" cuando nadie estaba vacunado, y todavía no se observa en las zonas metropolitanas que se vacunaron después.</p>
+<p>Al mismo tiempo, hemos visto que la proporción de casos y defunciones nacionales que corresponden a personas de 60 ó más años <a href="./clinicos#casos_def_por_edad">ha disminuido en el mismo período</a>. Todo esto indica que la vacunación está teniendo un efecto directo en el control de la epidemia, pero falta mucha gente por vacunar y es importante que todos nos vacunemos tan pronto como sea nuestro turno.</p>
             </p>
               
           </div>
@@ -416,7 +440,7 @@
           <div class="col-12 col-md-6 my-auto my-auto">
             <h3>El mundo ya está en la tercera &#34;ola&#34;</h3>
             <p class="lead">
-              <p>Ha habido dos grandes "olas" de mortalidad por COVID-19 en lo que va de la pandemia. La primera entre abril y mayo de 2020 y la segunda entre noviembre de 2020 y febrero de 2021. Durante esta segunda etapa llegamos a confirmar cerca de 15 mil defunciones por día debido a COVID-19. Aunque el número de defunciones registradas diariamente no ha regresado a los niveles de la primera "ola", en las últimas semanas vemos un nuevo aumento global en el número de casos, con Brasil como el país con el mayor número reciente de defunciones.</p>
+              <p>En México ha habido <a href="./muertes#muertes_tipomun">dos</a> <a href="./muertes#exceso_mortalidad_nacional">grandes</a> "olas" de mortalidad por COVID-19 en lo que va de la pandemia. Sin embargo, a nivel mundial nos encontramos en medio de la tercera. La primera "ola" mundial ocurrió entre abril y mayo de 2020, la segunda entre noviembre de 2020 y febrero de 2021. Durante esta segunda etapa llegamos a confirmar cerca de 15 mil defunciones por día debido a COVID-19. Desde mediados de marzo de 2021, han ocurrido un nuevo incremento acelerado en el número de defunciones globales, que ya está cerca de superar el máximo histórico, con Brasil e India como los países más afectados.</p>
 <p>La gráfica muestra el número de muertes (en una ventana deslizante de 7 días) en los 9 países con la mayor cantidad de muertes confirmadas por COVID-19, así como el resto del Mundo.</p>
             </p>
               
@@ -450,30 +474,6 @@
       </div>
     </section>
   
-    <section class="section rad-animation-group pb-0" id="casos_margmun">
-      <div class="container rad-fade-down">
-        <div class="row d-flex flex-column-reverse flex-md-row">
-          <div class="about__profile-picture col-12 col-md-6">
-            <img
-              class="lozad img-responsive image-right-overflow"
-              src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-              data-src="https://coronamex.github.io/imagenes/casos_margmun.png"
-              data-srcset="https://coronamex.github.io/imagenes/casos_margmun.png 1x, https://coronamex.github.io/imagenes/casos_margmun@2x.png 2x"
-              alt="Distribución de casos confirmados de COVID-19 de acuerdo al grado de marginación municipal determinad por el CONEVAL en 2015 a lo largo de la epidemia."
-            />
-          </div>
-          <div class="col-12 col-md-6 my-auto my-auto">
-            <h3>La segunda &#34;ola&#34; se concentra en las ciudades</h3>
-            <p class="lead">
-              <p>La epidemia en México se ha concentrado <a href="./municipios#vm_casos">en</a> <a href="./municipios#top_zm_casos">las</a> <a href="./municipios#top_zm_casos2">zonas</a> <a href="./municipios#top_zm_casos3">metropolitanas</a> que suelen tener mayor acceso a servicios. Sin embargo, en cada "ola" el número de municipios afectados <a href="./municipios#n_municipios">se incrementa</a>. Esta gráfica muestra como en la segunda "ola" la proporción de casos confirmados en municipios marginados ha sido menor que en la primera "ola". Esto indica que, de momento, una mayor proporción de la epidemia se ha concentrado en zonas urbanas.</p>
-<p>Es importante notar que estas proporciones son subestimados del verdadero número de personas en situación de marginación que se han contagiado de COVID-19. Esto porque aún cuando las zonas metropolitanas se consideraran zonas de muy baja marginación, porque suelen existir todos los servicios, siempre hay una proporción de la población que vive en estas zonas y carece del acceso a muchos servicios. Los indicadores socioeconómicos que tenemos a nivel de paciente, declararse indígena y hablar lengua indígena, muestran que personas en estos grupos tienen un <a href="./clinicos#riesgos_relativos">mayor riesgo de ser hospitalizados y fallecer</a> por COVID-19 en México.</p>
-            </p>
-              
-          </div>
-        </div>
-      </div>
-    </section>
-  
     <section class="section rad-animation-group pb-0" id="vm_casos">
       <div class="container rad-fade-down">
         <div class="row d-flex flex-column-reverse flex-md-row">
@@ -487,10 +487,10 @@
             />
           </div>
           <div class="col-12 col-md-6 my-auto my-auto">
-            <h3>El Valle de México sigue en un momento crítico</h3>
+            <h3>El Valle de México ha sido la región más afectada</h3>
             <p class="lead">
               <p>La zona metropolitana del Valle de México ha sido por mucho la región más afectada del país, acumulando alrededor de un tercio de los casos confirmados. Esta gráfica muestra los casos de acuerdo la fecha en que mostraron síntomas. Debido a que los casos nuevos se detectan con un <a href="./clinicos#tiempo_deteccion">retraso típico de 11 días</a>, sólo podemos estar razonablemente seguros del número de casos hace unas dos semanas</p>
-<p>El número de casos se ha mostrado un ligero descenso en los últimos días, pero la tendencia a mediano plazo sigue siendo a la alza, mientras que las defunciones <a href="./muertes#muertes_tipomun">continúan en aumento</a>. El riesgo sigue siendo de los más altos del país, y <a href="./municipios#top_zm_casos">otras ciudades</a> han mostrado rebrotes.</p>
+<p>En los últimos meses, el número de casos, <a href="./muertes#muertes_tipomun">defunciones</a>, y <a href="./muertes#exceso_mortalidad_estados1">exceso de mortalidad</a> han mostrado un descenso sostenido, pero sus tasas de transmisión y mortalidad siguen siendo <a href="./estados#estados_100mil">la más alta del país</a> aún cuando consideramos el tamaño poblacional.</p>
 <p>Otras <a href="./municipios#top_zm_casos">zonas</a> <a href="./municipios#top_zm_casos2">metropolitanas</a> <a href="./municipios#top_zm_casos3">también</a> han sido afectadas</p>
             </p>
               
@@ -571,32 +571,6 @@ La <a href="./estados#r_efectiva">R efectiva</a> en cada entidad.</p>
               <p>Los fallecidos por COVID-19 no son las únicas víctimas de la pandemia. Personas fallecen porque la saturación de los sistemas de salud no permite que sean atendidas, o porque se ven obligadas a estar encerradas con sus abusadores. Además, algunas muertes por COVID-19 no son diagnosticadas. En <a href="https://www.ft.com/content/6bd88b7d-3386-4543-b2e9-0d5c6fac846c" target="_blank">numerosos</a> <a href="https://www.economist.com/graphic-detail/2020/07/15/tracking-covid-19-excess-deaths-across-countries">países</a> se ha observado que la pandemia provoca un <i>exceso de mortalidad</i>.</p>
 <p>En México, desde el inicio de la pandemia y hasta el 27 de marzo de 2021 se han registrado <b>65% más defunciones</b> que en el mismo periodo de años previos. Estos números son preliminares ya que el catálogo nacional de defunciones tarda dos años en finalizarse.</p>
 <p>Cada estado ha sido afectado <a href="./muertes#exceso_mortalidad_estados1">de manera diferente</a>. También puedes consultar <a href="https://github.com/coronamex/mortalidad/tree/master/datos_abiertos" target="_blank">los datos</a>, <a href="https://github.com/coronamex/visualizando/blob/master/muertes/exceso_mortalidad.r" target="_blank">el código</a>, y el <a href="https://coronavirus.gob.mx/exceso-de-mortalidad-en-mexico/" target="_blank">análisis del gobierno</a>.</p>
-            </p>
-              
-          </div>
-        </div>
-      </div>
-    </section>
-  
-    <section class="section rad-animation-group pb-0" id="r_efectiva">
-      <div class="container rad-fade-down">
-        <div class="row d-flex flex-column-reverse flex-md-row">
-          <div class="about__profile-picture col-12 col-md-6">
-            <img
-              class="lozad img-responsive image-right-overflow"
-              src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-              data-src="https://coronamex.github.io/imagenes/r_efectiva.png"
-              data-srcset="https://coronamex.github.io/imagenes/r_efectiva.png 1x, https://coronamex.github.io/imagenes/r_efectiva@2x.png 2x"
-              alt="R efectiva a través del tiempo en estados con al menos 500 casos. Mediana e intervalo modal (Highest Density Posterior [HDP]) estimados via MCMC."
-            />
-          </div>
-          <div class="col-12 col-md-6 my-auto my-auto">
-            <h3>La epidemia se desacelera pero permanece</h3>
-            <p class="lead">
-              <p>Las epidemias avanzan porque la enfermedad se transmite de una persona a otra. La <i>R efectiva</i> (R_t) es el número promedio de contagios por cada persona que se enferma. Si la <i>R efectiva</i> es más de uno los casos aumentan, mientras que si la <i>R efectiva</i> es menos de uno los casos disminuyen.</p>
-<p>Esta gráfica muestra la evolución de la <i>R efectiva</i> en los estados del país, y en la mayor zona metropolitana de cada entidad. En general, este indicador a disminuido en todos los estados desde el inicio de la epidemia, pero pocas entidades logran un valor consistentemente por debajo de uno, y los casos siguen <a href="./estados#estados_casos1">aumentando</a> <a href="./estados#estados_casos2">en</a> <a href="./estados#estados_casos3">muchos</a> <a href="./estados#estados_casos4">estados</a>.</p>
-<p><a href="./municipios#vm_casos">Las</a> <a href="./municipios#top_zm_casos">zonas</a> <a href="./municipios#top_zm_casos2">metropolitanas</a> <a href="./municipios#top_zm_casos3">han</a> sido las <a href="./muertes#muertes_tipomun">más afectadas</a> por lo que la <i>R efectiva</i> de un estado suele corresponder a la de su mayor zona metropolitana, pero hay algunas diferencias. Estas diferencias pueden ser causadas por zonas metropolitanas que cruzan fronteras estatales, la presencia de múltiples centros urbanos en una entidad, y la <a href="./municipios#n_municipios">expansión geográfica</a> de la epidemia a nuevos municipios.</p>
-<p>A diferencia de los casos y los fallecimientos, la tasa de contagios no se puede medir directamente sino que se estima indirectamente. Este análisis adapta el método de <a href="https://rt.live/" target="_blank">rt.live</a> que calcula este valor para EEUU. El código para estimar la R efectiva en México está <a href="https://github.com/coronamex/covid-model" target="_blank">aquí</a> y los estimados más recientes <a href="https://github.com/coronamex/covid-model/tree/mexico/R_efectiva" target="_blank"> aquí</a>.</p>
             </p>
               
           </div>

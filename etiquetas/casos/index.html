@@ -319,55 +319,6 @@
   </section>
 
   
-    <section class="section rad-animation-group pb-0" id="casos_def_por_edad">
-      <div class="container rad-fade-down">
-        <div class="row d-flex flex-column-reverse flex-md-row">
-          <div class="about__profile-picture col-12 col-md-6">
-            <img
-              class="lozad img-responsive image-right-overflow"
-              src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-              data-src="https://coronamex.github.io/imagenes/casos_def_por_edad.png"
-              data-srcset="https://coronamex.github.io/imagenes/casos_def_por_edad.png 1x, https://coronamex.github.io/imagenes/casos_def_por_edad@2x.png 2x"
-              alt="Casos nuevos y fallecimientos por día de inicio de síntomas y grupo de edad en México"
-            />
-          </div>
-          <div class="col-12 col-md-6 my-auto my-auto">
-            <h3>Mayores de 60 son vulnerables, jóvenes alimentan la epidemia</h3>
-            <p class="lead">
-              <p>Aunque todos estamos en riesgo, desde el inicio de la pandemia se detectó que las personas mayores de edad están en mayor riesgo. En México, el riesgo relativo de fallecer por COVID-19 <a href="../../clinicos#riesgos_relativos">se duplica </a> con cada diez años más de edad.</p>
-<p>Esta gráfica muestra que aunque sólo el 20% de los contagios occurren entre personas de 60 años o más, el 60% de los fallecimientos ocurren entre estos adultos mayores. Además, la gráfica muestra como la mayoría de los contagios ocurren entre la gente más joven es responsable de la mayor cantidad de casos. Al inicio de la epidemia, alrededor del 35% de los contagiados eran menores de 40 años, pero esta proporción a subido al 45% conforme avanza la epidemia. Aunque estas personas tienen un menor riesgo individual, pueden transmitir la enfermedad y estos contagios permiten que la epidemia siga circulando.</p>
-            </p>
-              
-          </div>
-        </div>
-      </div>
-    </section>
-  
-    <section class="section rad-animation-group pb-0" id="tiempo_deteccion">
-      <div class="container rad-fade-down">
-        <div class="row d-flex flex-column-reverse flex-md-row">
-          <div class="about__profile-picture col-12 col-md-6">
-            <img
-              class="lozad img-responsive image-right-overflow"
-              src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-              data-src="https://coronamex.github.io/imagenes/tiempo_deteccion.png"
-              data-srcset="https://coronamex.github.io/imagenes/tiempo_deteccion.png 1x, https://coronamex.github.io/imagenes/tiempo_deteccion@2x.png 2x"
-              alt="Se muestra la probabilidad de que un casos sea detectado un número de días después del inicio de síntomas. También se muestran las distribuciones de probabilidad de tiempo de que un paciente llegue a una unidad médica, y de que el caso sea confirmado una vez que el paciente llegó a ala unidad médica"
-            />
-          </div>
-          <div class="col-12 col-md-6 my-auto my-auto">
-            <h3>¿Cuánto tarda en confirmarse un caso?</h3>
-            <p class="lead">
-              <p>Esta gráfica muestra el número de días que normalmente pasan desde que alguien muestra síntomas hasta que ingresa al sistema de salud (morado), entre el ingreso y la confirmación del caso (naranja), así como entre el inicio de síntomas y la confirmación (verde). Se muestra el promedio nacional en los últimos 60 días.</p>
-<p>En México un caso tarda típicamente 11 días en ser confirmado: 4 ó 5 días es el tiempo típico entre el inicio de síntomas y el ingreso al sistema de salud, y 7 días es lo que demora la prueba</p>
-<p>Una persona es altamente contagiosa 2 días antes de mostrar síntomas, y un contagiado suele tardar 5 días en mostrar síntomas. Esto significa que cuando un contagiado llega al sistema de salud, sus contagios ya han contagiado a terceras personas. La moraleja es que hay que acudir al sistema de salud y buscar hacerse la desde el primer día que inician los síntomas.</p>
-            </p>
-              
-          </div>
-        </div>
-      </div>
-    </section>
-  
     <section class="section rad-animation-group pb-0" id="sir">
       <div class="container rad-fade-down">
         <div class="row d-flex flex-column-reverse flex-md-row">
@@ -383,7 +334,7 @@
           <div class="col-12 col-md-6 my-auto my-auto">
             <h3>¿Cuál es el estado de la epidemia?</h3>
             <p class="lead">
-              <p>A nivel nacional la epidemia acumula semanas de descenso sostenido tanto en contagios como en <a href="../../muertes#muertes_tipomun">fallecimientos</a>. A nivel local, el relajamiento de las medidas de mitigación ha llevado a ligeros incrementos en los días más recientes. Todavía estamos a tiempo de evitar otra gran "ola" pero es necesario seguir con las medidas de mitigación y vacunarse cuando sea nuestro turno.</p>
+              <p>A nivel nacional la epidemia acumula meses de descenso sostenido tanto en contagios como en <a href="../../muertes#muertes_tipomun">fallecimientos</a>, y además hay <a href="../../clinicos#mortalidad_edad_tipomun">buenas</a> <a href="../../clinicos#casos_def_por_edad">señales</a> tempranas del programa de vacunación. Sin embargo, el riesgo de una tercera "ola" permanece, y hay varios <a href="../../municipios#top_zm_casos">repuntes a nivel local</a>. Por eso es importante mantener todas las medidas de prevención y vacunarnos cuando sea nuestro turno.</p>
 <p>La gráfica muestra el número de casos registrados (barras) y utiliza <a href="https://gabgoh.github.io/COVID/index.html" target="_blank">modelo epidemiológico SEIR</a> para estimar el estado más probable de la epidemia al día de hoy (áreas sombreadas). La estimación se realiza con <a href="https://github.com/coronamex/visualizando/blob/master/casos/stan_seir.r" target="_blank">este código</a> y los valores numéricos están <a href="https://github.com/coronamex/visualizando/tree/master/estimados" target="_blank">aquí</a>. Sólo se usan los últimos 6 meses.</p>
 <p>Ningún modelo captura la realidad completa, este modelo no puede pronosticar un futuro lejano, ni estima el sub-registro de casos (para eso está el sistema <a href="../../casos#sir_centinela"> Centinela</a>). Este modelo tampoco considera variaciones locales <a href="../../estados#r_efectiva">entre</a> <a href="../../estados#estados_casos_100mil">estados</a> y <a href="../../municipios#vm_casos">zonas</a> <a href="../../municipios#top_zm_casos.md">metropolitanas</a>. Por otro lado, este modelo sí puede usarse para medir el <a href="../../casos#aplanamiento">aplanado de la curva</a>.</p> 
             </p>
@@ -418,6 +369,31 @@
       </div>
     </section>
   
+    <section class="section rad-animation-group pb-0" id="casos_def_por_edad">
+      <div class="container rad-fade-down">
+        <div class="row d-flex flex-column-reverse flex-md-row">
+          <div class="about__profile-picture col-12 col-md-6">
+            <img
+              class="lozad img-responsive image-right-overflow"
+              src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+              data-src="https://coronamex.github.io/imagenes/casos_def_por_edad.png"
+              data-srcset="https://coronamex.github.io/imagenes/casos_def_por_edad.png 1x, https://coronamex.github.io/imagenes/casos_def_por_edad@2x.png 2x"
+              alt="Casos nuevos y fallecimientos por día de inicio de síntomas y grupo de edad en México"
+            />
+          </div>
+          <div class="col-12 col-md-6 my-auto my-auto">
+            <h3>Mayores de 60 son vulnerables, la vacunación los protege</h3>
+            <p class="lead">
+              <p>Aunque todos estamos en riesgo, desde el inicio de la pandemia se detectó que las personas mayores de edad están en mayor riesgo. En México, el riesgo relativo de fallecer por COVID-19 <a href="../../clinicos#riesgos_relativos">se duplica </a> con cada diez años más de edad.</p>
+<p>A lo largo de la pandemia, cerca del 70% de los fallecimientos han ocurrido entre personas de 60 ó mas años, aunque sólo el 20% de los contagios, y el 11% de la población nacional, corresponde a este grupo.</p>
+<p>Afortunadamente, desde principios de abril hemos visto como se reduce la proporción de contagios y fallecimientos entre adultos mayores, lo cuál casi seguro <a href="../../clinicos#mortalidad_edad_tipomun">corresponde al programa de vacunación</a>. Aún falta muchas personas por vacunar, pero es importante que acudamos cuando sea nuestro turno.</p>
+            </p>
+              
+          </div>
+        </div>
+      </div>
+    </section>
+  
     <section class="section rad-animation-group pb-0" id="paises_mortalidad_reciente">
       <div class="container rad-fade-down">
         <div class="row d-flex flex-column-reverse flex-md-row">
@@ -435,6 +411,31 @@
             <p class="lead">
               <p>Es difícil comparar países porque cada uno tiene estrategias diferentes para monitorear y reportar el comportamiento de la epidemia. Sin embargo, el número de defunciones confirmadas por COVID-19 es uno de los indicadores más estandarizados y está disponible para muchos países. Esta gráfica muestra la mortalidad diaria por COVID-19 en los últimos 60 días, para los 10 países con mayor mortalidad en los últimos 14 días. En otras palabras esta gráfica muestra el comportamiento de la mortalidad en los países más afectados en días recientes</p>
 <p> Hay que recordar que la fecha en que se registra un fallecimiento es indicador muy pobre del fenómeno epidémico, pero es el único dato que tenemos para muchos países. Para México es mejor usar la <a href="../../casos#nacional_sintomas">fecha de inicio de síntomas</a> o la <a href="../../muertes#muertes_tipomun">fecha de defunción</a>.</p>
+            </p>
+              
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section class="section rad-animation-group pb-0" id="tiempo_deteccion">
+      <div class="container rad-fade-down">
+        <div class="row d-flex flex-column-reverse flex-md-row">
+          <div class="about__profile-picture col-12 col-md-6">
+            <img
+              class="lozad img-responsive image-right-overflow"
+              src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+              data-src="https://coronamex.github.io/imagenes/tiempo_deteccion.png"
+              data-srcset="https://coronamex.github.io/imagenes/tiempo_deteccion.png 1x, https://coronamex.github.io/imagenes/tiempo_deteccion@2x.png 2x"
+              alt="Se muestra la probabilidad de que un casos sea detectado un número de días después del inicio de síntomas. También se muestran las distribuciones de probabilidad de tiempo de que un paciente llegue a una unidad médica, y de que el caso sea confirmado una vez que el paciente llegó a ala unidad médica"
+            />
+          </div>
+          <div class="col-12 col-md-6 my-auto my-auto">
+            <h3>¿Cuánto tarda en confirmarse un caso?</h3>
+            <p class="lead">
+              <p>Esta gráfica muestra el número de días que normalmente pasan desde que alguien muestra síntomas hasta que ingresa al sistema de salud (morado), entre el ingreso y la confirmación del caso (naranja), así como entre el inicio de síntomas y la confirmación (verde). Se muestra el promedio nacional en los últimos 60 días.</p>
+<p>En México un caso tarda típicamente 11 días en ser confirmado: 4 ó 5 días es el tiempo típico entre el inicio de síntomas y el ingreso al sistema de salud, y 7 días es lo que demora la prueba</p>
+<p>Una persona es altamente contagiosa 2 días antes de mostrar síntomas, y un contagiado suele tardar 5 días en mostrar síntomas. Esto significa que cuando un contagiado llega al sistema de salud, sus contagios ya han contagiado a terceras personas. La moraleja es que hay que acudir al sistema de salud y buscar hacerse la desde el primer día que inician los síntomas.</p>
             </p>
               
           </div>
@@ -601,10 +602,10 @@
             />
           </div>
           <div class="col-12 col-md-6 my-auto my-auto">
-            <h3>El Valle de México sigue en un momento crítico</h3>
+            <h3>El Valle de México ha sido la región más afectada</h3>
             <p class="lead">
               <p>La zona metropolitana del Valle de México ha sido por mucho la región más afectada del país, acumulando alrededor de un tercio de los casos confirmados. Esta gráfica muestra los casos de acuerdo la fecha en que mostraron síntomas. Debido a que los casos nuevos se detectan con un <a href="../../clinicos#tiempo_deteccion">retraso típico de 11 días</a>, sólo podemos estar razonablemente seguros del número de casos hace unas dos semanas</p>
-<p>El número de casos se ha mostrado un ligero descenso en los últimos días, pero la tendencia a mediano plazo sigue siendo a la alza, mientras que las defunciones <a href="../../muertes#muertes_tipomun">continúan en aumento</a>. El riesgo sigue siendo de los más altos del país, y <a href="../../municipios#top_zm_casos">otras ciudades</a> han mostrado rebrotes.</p>
+<p>En los últimos meses, el número de casos, <a href="../../muertes#muertes_tipomun">defunciones</a>, y <a href="../../muertes#exceso_mortalidad_estados1">exceso de mortalidad</a> han mostrado un descenso sostenido, pero sus tasas de transmisión y mortalidad siguen siendo <a href="../../estados#estados_100mil">la más alta del país</a> aún cuando consideramos el tamaño poblacional.</p>
 <p>Otras <a href="../../municipios#top_zm_casos">zonas</a> <a href="../../municipios#top_zm_casos2">metropolitanas</a> <a href="../../municipios#top_zm_casos3">también</a> han sido afectadas</p>
             </p>
               

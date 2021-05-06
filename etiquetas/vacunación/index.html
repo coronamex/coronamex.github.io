@@ -314,29 +314,28 @@
   
   <section class="section rad-animation-group pb-0">
     <div class="container rad-fade-down">
-        <h1 align="center">modelo</h1>
+        <h1 align="center">vacunación</h1>
     </div>
   </section>
 
   
-    <section class="section rad-animation-group pb-0" id="sir">
+    <section class="section rad-animation-group pb-0" id="mortalidad_edad_tipomun">
       <div class="container rad-fade-down">
         <div class="row d-flex flex-column-reverse flex-md-row">
           <div class="about__profile-picture col-12 col-md-6">
             <img
               class="lozad img-responsive image-right-overflow"
               src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-              data-src="https://coronamex.github.io/imagenes/sir_nacional.png"
-              data-srcset="https://coronamex.github.io/imagenes/sir_nacional.png 1x, https://coronamex.github.io/imagenes/sir_nacional@2x.png 2x"
-              alt="Resultados del modelos epidemiológico compartamentalizado SEIR. El modelo se ajusta con datos de COVID-19 en Méxido a nivel nacional hasta la fecha indicada. Además el modelo asume que la transmisibilidad cambia cada 15 días. El modelo se ajusta con stan."
+              data-src="https://coronamex.github.io/imagenes/mortalidad_edad_tipomun.png"
+              data-srcset="https://coronamex.github.io/imagenes/mortalidad_edad_tipomun.png 1x, https://coronamex.github.io/imagenes/mortalidad_edad_tipomun@2x.png 2x"
+              alt="Mortalidad en ventana móvil de 7 días y como proporción del máximo de cada &#34;ola&#34; por edad y tipo de municipio días después de cada &#34;ola&#34;."
             />
           </div>
           <div class="col-12 col-md-6 my-auto my-auto">
-            <h3>¿Cuál es el estado de la epidemia?</h3>
+            <h3>La vacunación está funcionando</h3>
             <p class="lead">
-              <p>A nivel nacional la epidemia acumula meses de descenso sostenido tanto en contagios como en <a href="../../muertes#muertes_tipomun">fallecimientos</a>, y además hay <a href="../../clinicos#mortalidad_edad_tipomun">buenas</a> <a href="../../clinicos#casos_def_por_edad">señales</a> tempranas del programa de vacunación. Sin embargo, el riesgo de una tercera "ola" permanece, y hay varios <a href="../../municipios#top_zm_casos">repuntes a nivel local</a>. Por eso es importante mantener todas las medidas de prevención y vacunarnos cuando sea nuestro turno.</p>
-<p>La gráfica muestra el número de casos registrados (barras) y utiliza <a href="https://gabgoh.github.io/COVID/index.html" target="_blank">modelo epidemiológico SEIR</a> para estimar el estado más probable de la epidemia al día de hoy (áreas sombreadas). La estimación se realiza con <a href="https://github.com/coronamex/visualizando/blob/master/casos/stan_seir.r" target="_blank">este código</a> y los valores numéricos están <a href="https://github.com/coronamex/visualizando/tree/master/estimados" target="_blank">aquí</a>. Sólo se usan los últimos 6 meses.</p>
-<p>Ningún modelo captura la realidad completa, este modelo no puede pronosticar un futuro lejano, ni estima el sub-registro de casos (para eso está el sistema <a href="../../casos#sir_centinela"> Centinela</a>). Este modelo tampoco considera variaciones locales <a href="../../estados#r_efectiva">entre</a> <a href="../../estados#estados_casos_100mil">estados</a> y <a href="../../municipios#vm_casos">zonas</a> <a href="../../municipios#top_zm_casos.md">metropolitanas</a>. Por otro lado, este modelo sí puede usarse para medir el <a href="../../casos#aplanamiento">aplanado de la curva</a>.</p> 
+              <p>Para saber si la vacunación está funcionando necesitamos comparar poblaciones que hayan sido vacunadas con otras que no lo hayan sido. En México la vacunación contra COVID-19 inició en adultos de 60 ó más años que residen en municipios no metropolitanos. Observamos que en abril de 2021, después de la segunda "ola", los fallecimientos han empezado a disminuir más rápidamente justo en el grupo de edad que se vacunó primero, y en los municipios que se vacunaros primero. Esta diferencia no ocurrió después de la primera "ola" cuando nadie estaba vacunado, y todavía no se observa en las zonas metropolitanas que se vacunaron después.</p>
+<p>Al mismo tiempo, hemos visto que la proporción de casos y defunciones nacionales que corresponden a personas de 60 ó más años <a href="../../clinicos#casos_def_por_edad">ha disminuido en el mismo período</a>. Todo esto indica que la vacunación está teniendo un efecto directo en el control de la epidemia, pero falta mucha gente por vacunar y es importante que todos nos vacunemos tan pronto como sea nuestro turno.</p>
             </p>
               
           </div>
@@ -344,97 +343,24 @@
       </div>
     </section>
   
-    <section class="section rad-animation-group pb-0" id="aplanamiento">
+    <section class="section rad-animation-group pb-0" id="casos_def_por_edad">
       <div class="container rad-fade-down">
         <div class="row d-flex flex-column-reverse flex-md-row">
           <div class="about__profile-picture col-12 col-md-6">
             <img
               class="lozad img-responsive image-right-overflow"
               src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-              data-src="https://coronamex.github.io/imagenes/aplanamiento.png"
-              data-srcset="https://coronamex.github.io/imagenes/aplanamiento.png 1x, https://coronamex.github.io/imagenes/aplanamiento@2x.png 2x"
-              alt="Pronósitcos de modelo SEIR ajustado en fecha más reciente con velocidades de días previos."
+              data-src="https://coronamex.github.io/imagenes/casos_def_por_edad.png"
+              data-srcset="https://coronamex.github.io/imagenes/casos_def_por_edad.png 1x, https://coronamex.github.io/imagenes/casos_def_por_edad@2x.png 2x"
+              alt="Casos nuevos y fallecimientos por día de inicio de síntomas y grupo de edad en México"
             />
           </div>
           <div class="col-12 col-md-6 my-auto my-auto">
-            <h3>Probablemente sí hemos aplanado la curva</h3>
+            <h3>Mayores de 60 son vulnerables, la vacunación los protege</h3>
             <p class="lead">
-              <p><a href="../../casos#aplanamiento_diagrama">Aplanar la curva</a> significa reducir la velocidad con la que se acumulan los casos. Nunca podemos estar cien por ciento seguros de qué hubiera pasado si las cosas fueran diferentes, pero gracias a que el <a href="../../casos#sir">modelo epidemiológico SEIR</a> de CoronaMex estima el cambio en la tasa de transmisión cada 15 días, podemos preguntarnos qué hubiera pasado si esta tasa no hubiera cambiado.</p>
-<p>La curva negra muestra el número de casos acumulados en el país. Las curvas rojas muestran los resultados del modelo final. Las curvas azules muestran los resultados de simular la epidemia asumiendo que la tasa de transmisión es la misma que al inicio de la epidemia. Finalmente, las curvas verdes simulan lo que pudo haber pasado si la tasa de transmisión hubiera sido la misma que hasta antes del 15 de abril.</p>
-<p>Básicamente, el modelo indica claramente que la epidemia ha crecido más lentamente de como inició, y que ha habido un "aplanamiento" progresivo en la curva de casos acumulados. <a href="https://github.com/coronamex/visualizando/tree/master/estimados" target="_blank">Aquí</a> están los resultados de las simulaciones.</p>
-            </p>
-              
-          </div>
-        </div>
-      </div>
-    </section>
-  
-    <section class="section rad-animation-group pb-0" id="aplanamiento_diagrama">
-      <div class="container rad-fade-down">
-        <div class="row d-flex flex-column-reverse flex-md-row">
-          <div class="about__profile-picture col-12 col-md-6">
-            <img
-              class="lozad img-responsive image-right-overflow"
-              src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-              data-src="https://coronamex.github.io/imagenes/aplanamiento_diagrama.png"
-              data-srcset="https://coronamex.github.io/imagenes/aplanamiento_diagrama.png 1x, https://coronamex.github.io/imagenes/aplanamiento_diagrama@2x.png 2x"
-              alt="Simulación SEIRD comparando curvas epidémicas y log-log de casos y muertes con y sin aplanado."
-            />
-          </div>
-          <div class="col-12 col-md-6 my-auto my-auto">
-            <h3>¿Qué es el &#34;aplanado&#34; de la curva?</h3>
-            <p class="lead">
-              <p>Una error bastante común es la confusión entre aplanamiento de la curva y pasar el punto más alto de contagios. "Aplanar" la curva simplemente significa reducir la velocidad de contagio de manera que los casos se acumulan más lentamente de lo que se esperaría sin ninguna acción de mitigación. Aún cuando se tiene éxito "aplanando" la curva, le epidemia sigue teniendo una fase exponencial.</p>
-<p>Una de las visualizaciones más populares consiste en comparar casos o muertes por día y totales en escala logarítmica (log-log). En varios países se observa que esta curva ha empezado a descender y en México esto no ha sucedido. Como se ve en la simulación el comportamiento y la tendencia de una epidemia es en estas gráficas es idéntica independientemente del "aplanamiento". Lo que estas curvas log-log identifican es el pico epidémico. Hay <a href="../../casos#aplanamiento">mejores formas</a> de medir el aplanamiento en México.</p>
-            </p>
-              
-          </div>
-        </div>
-      </div>
-    </section>
-  
-    <section class="section rad-animation-group pb-0" id="r_efectiva">
-      <div class="container rad-fade-down">
-        <div class="row d-flex flex-column-reverse flex-md-row">
-          <div class="about__profile-picture col-12 col-md-6">
-            <img
-              class="lozad img-responsive image-right-overflow"
-              src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-              data-src="https://coronamex.github.io/imagenes/r_efectiva.png"
-              data-srcset="https://coronamex.github.io/imagenes/r_efectiva.png 1x, https://coronamex.github.io/imagenes/r_efectiva@2x.png 2x"
-              alt="R efectiva a través del tiempo en estados con al menos 500 casos. Mediana e intervalo modal (Highest Density Posterior [HDP]) estimados via MCMC."
-            />
-          </div>
-          <div class="col-12 col-md-6 my-auto my-auto">
-            <h3>La epidemia se desacelera pero permanece</h3>
-            <p class="lead">
-              <p>Las epidemias avanzan porque la enfermedad se transmite de una persona a otra. La <i>R efectiva</i> (R_t) es el número promedio de contagios por cada persona que se enferma. Si la <i>R efectiva</i> es más de uno los casos aumentan, mientras que si la <i>R efectiva</i> es menos de uno los casos disminuyen.</p>
-<p>Esta gráfica muestra la evolución de la <i>R efectiva</i> en los estados del país, y en la mayor zona metropolitana de cada entidad. En general, este indicador a disminuido en todos los estados desde el inicio de la epidemia, pero pocas entidades logran un valor consistentemente por debajo de uno, y los casos siguen <a href="../../estados#estados_casos1">aumentando</a> <a href="../../estados#estados_casos2">en</a> <a href="../../estados#estados_casos3">muchos</a> <a href="../../estados#estados_casos4">estados</a>.</p>
-<p><a href="../../municipios#vm_casos">Las</a> <a href="../../municipios#top_zm_casos">zonas</a> <a href="../../municipios#top_zm_casos2">metropolitanas</a> <a href="../../municipios#top_zm_casos3">han</a> sido las <a href="../../muertes#muertes_tipomun">más afectadas</a> por lo que la <i>R efectiva</i> de un estado suele corresponder a la de su mayor zona metropolitana, pero hay algunas diferencias. Estas diferencias pueden ser causadas por zonas metropolitanas que cruzan fronteras estatales, la presencia de múltiples centros urbanos en una entidad, y la <a href="../../municipios#n_municipios">expansión geográfica</a> de la epidemia a nuevos municipios.</p>
-<p>A diferencia de los casos y los fallecimientos, la tasa de contagios no se puede medir directamente sino que se estima indirectamente. Este análisis adapta el método de <a href="https://rt.live/" target="_blank">rt.live</a> que calcula este valor para EEUU. El código para estimar la R efectiva en México está <a href="https://github.com/coronamex/covid-model" target="_blank">aquí</a> y los estimados más recientes <a href="https://github.com/coronamex/covid-model/tree/mexico/R_efectiva" target="_blank"> aquí</a>.</p>
-            </p>
-              
-          </div>
-        </div>
-      </div>
-    </section>
-  
-    <section class="section rad-animation-group pb-0" id="letalidad">
-      <div class="container rad-fade-down">
-        <div class="row d-flex flex-column-reverse flex-md-row">
-          <div class="about__profile-picture col-12 col-md-6">
-            <img
-              class="lozad img-responsive image-right-overflow"
-              src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-              data-src="https://coronamex.github.io/imagenes/letalidad_diagrama.png"
-              data-srcset="https://coronamex.github.io/imagenes/letalidad_diagrama.png 1x, https://coronamex.github.io/imagenes/letalidad_diagrama@2x.png 2x"
-              alt="Diagrama que ilustra las dificultades de estimar la letalidad durante una epidemia. La letalidad verdadera y el número de nuevos casos infecciosos y muertes acumulados de una simulación con un modelo SEIRD. Dos estimadores de letalidad (instantánea y con retraso) se muestran. Ninguno hace un buen trabajo durante la epidemia pero convergen una vez que el pico epidémico ha pasado."
-            />
-          </div>
-          <div class="col-12 col-md-6 my-auto my-auto">
-            <h3>¿Cómo se interpreta la letalidad?</h3>
-            <p class="lead">
-              <p>La letalidad es la proporción de gente enferma que termina falleciendo. Es un parámetro importante pero es casi imposible medirlo en tiempo real. Esto se ilustra con una simulación. Si pudiéramos medir todos los nuevos casos instantáneamente, terminaríamos subestimando la verdadera letalidad. Por otro lado, el retraso entre la aparición de un caso y su detección provoca que sobrestimemos la verdadera letalidad.</p> <p>En el mundo real, el cálculo es todavía más complicado porque no detectamos todos los casos, y porque variaciones regionales causan diferentes tipos de error.</p> <p>La simulación muestra que es posible estimar la letalidad de manera retrospectiva, una vez que no hay nuevos casos. Usando este principio, podemos usar la letalidad del COVID-19 en China (4.2%) y Corea del Sur (1.1%) para darnos una idea de lo que podemos esperar. La diferencia de 3% es el efecto entre la eficiencia de las medidas de mitigación. <strong>Quédate en Casa</strong>.</p>
+              <p>Aunque todos estamos en riesgo, desde el inicio de la pandemia se detectó que las personas mayores de edad están en mayor riesgo. En México, el riesgo relativo de fallecer por COVID-19 <a href="../../clinicos#riesgos_relativos">se duplica </a> con cada diez años más de edad.</p>
+<p>A lo largo de la pandemia, cerca del 70% de los fallecimientos han ocurrido entre personas de 60 ó mas años, aunque sólo el 20% de los contagios, y el 11% de la población nacional, corresponde a este grupo.</p>
+<p>Afortunadamente, desde principios de abril hemos visto como se reduce la proporción de contagios y fallecimientos entre adultos mayores, lo cuál casi seguro <a href="../../clinicos#mortalidad_edad_tipomun">corresponde al programa de vacunación</a>. Aún falta muchas personas por vacunar, pero es importante que acudamos cuando sea nuestro turno.</p>
             </p>
               
           </div>

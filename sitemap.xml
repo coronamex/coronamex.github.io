@@ -7,23 +7,15 @@
   </url>
   
   <url>
-    <loc>https://coronamex.github.io/clinicos/casos_def_por_edad/</loc>
-  </url>
-  
-  <url>
-    <loc>https://coronamex.github.io/clinicos/tiempo_deteccion/</loc>
-  </url>
-  
-  <url>
-    <loc>https://coronamex.github.io/clinicos/tiempo_muerte/</loc>
-  </url>
-  
-  <url>
     <loc>https://coronamex.github.io/casos/sir/</loc>
   </url>
   
   <url>
     <loc>https://coronamex.github.io/muertes/muertes_tipomun/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/clinicos/mortalidad_edad_tipomun/</loc>
   </url>
   
   <url>
@@ -35,7 +27,19 @@
   </url>
   
   <url>
+    <loc>https://coronamex.github.io/clinicos/casos_def_por_edad/</loc>
+  </url>
+  
+  <url>
     <loc>https://coronamex.github.io/mundo/paises_mortalidad_reciente/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/clinicos/tiempo_muerte/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/clinicos/tiempo_deteccion/</loc>
   </url>
   
   <url>
@@ -329,6 +333,10 @@
   
   <url>
     <loc>https://coronamex.github.io/etiquetas/tiempo/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/etiquetas/vacunaci%C3%B3n/</loc>
   </url>
   
   <url>
