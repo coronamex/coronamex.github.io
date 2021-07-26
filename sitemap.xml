@@ -3,10 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://coronamex.github.io/clinicos/riesgos_relativos/</loc>
-  </url>
-  
-  <url>
     <loc>https://coronamex.github.io/casos/sir/</loc>
   </url>
   
@@ -32,6 +28,14 @@
   
   <url>
     <loc>https://coronamex.github.io/mundo/paises_mortalidad_reciente/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/clinicos/rr_edad_mes/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coronamex.github.io/clinicos/riesgos_relativos/</loc>
   </url>
   
   <url>
