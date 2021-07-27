@@ -5,7 +5,11 @@
     <link>https://coronamex.github.io/etiquetas/</link>
     <description>Recent content in Etiquetas on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es-mx</language><atom:link href="https://coronamex.github.io/etiquetas/index.xml" rel="self" type="application/rss+xml" />
+    <language>es-mx</language>
+    
+	<atom:link href="https://coronamex.github.io/etiquetas/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>casos</title>
       <link>https://coronamex.github.io/etiquetas/casos/</link>
