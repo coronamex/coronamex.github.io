@@ -5,7 +5,11 @@
     <link>https://coronamex.github.io/etiquetas/municipios/</link>
     <description>Recent content in municipios on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es-mx</language><atom:link href="https://coronamex.github.io/etiquetas/municipios/index.xml" rel="self" type="application/rss+xml" />
+    <language>es-mx</language>
+    
+	<atom:link href="https://coronamex.github.io/etiquetas/municipios/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>La segunda &#34;ola&#34; se concentra en las ciudades</title>
       <link>https://coronamex.github.io/socioeconomicos/casos_margmun/</link>

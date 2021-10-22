@@ -5,7 +5,11 @@
     <link>https://coronamex.github.io/muertes/</link>
     <description>Recent content in Muertes on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es-mx</language><atom:link href="https://coronamex.github.io/muertes/index.xml" rel="self" type="application/rss+xml" />
+    <language>es-mx</language>
+    
+	<atom:link href="https://coronamex.github.io/muertes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>La epidemia sigue cobrando vidas</title>
       <link>https://coronamex.github.io/muertes/muertes_tipomun/</link>

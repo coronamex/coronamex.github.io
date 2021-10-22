@@ -5,7 +5,11 @@
     <link>https://coronamex.github.io/secciones/municipios/</link>
     <description>Recent content in municipios on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es-mx</language><atom:link href="https://coronamex.github.io/secciones/municipios/index.xml" rel="self" type="application/rss+xml" />
+    <language>es-mx</language>
+    
+	<atom:link href="https://coronamex.github.io/secciones/municipios/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>El Valle de México ha sido la región más afectada</title>
       <link>https://coronamex.github.io/municipios/vm_casos/</link>
