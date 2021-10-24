@@ -5,11 +5,7 @@
     <link>https://coronamex.github.io/etiquetas/s%C3%ADntomas/</link>
     <description>Recent content in síntomas on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es-mx</language>
-    
-	<atom:link href="https://coronamex.github.io/etiquetas/s%C3%ADntomas/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>es-mx</language><atom:link href="https://coronamex.github.io/etiquetas/s%C3%ADntomas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>¿Cuál es el estado de la epidemia?</title>
       <link>https://coronamex.github.io/casos/sir/</link>
